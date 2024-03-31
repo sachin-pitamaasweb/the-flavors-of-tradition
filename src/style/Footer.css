@@ -260,3 +260,31 @@
         padding-top: 20px;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .logo-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 80px;
+        padding-top: 20px;
+    }
+    .social-icon {
+        margin-left: 150px;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .logo-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 50px;
+        padding-top: 20px;
+    }
+    .social-icon {
+        margin-left: 120px;
+        margin-top: 15px;
+    }
+}

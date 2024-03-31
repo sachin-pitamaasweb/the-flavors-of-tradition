@@ -678,3 +678,39 @@
     }
 
 }
+
+@media screen and (max-width: 375px) {
+    .image-text {
+        margin-top: -252px;
+        text-align: center;
+    }
+    .image-text p {
+        color: #374724;
+        font-size: 20px;
+        margin: 35px 0;
+    }
+    .why-choose-us-p {
+        color: #374724;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .wide-range {
+        margin-top: 1230px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .image-text {
+        margin-top: -204px;
+        text-align: center;
+    }
+    .image-text p {
+        color: #374724;
+        font-size: 20px;
+        margin: 24px 0;
+    }
+
+    .wide-range {
+        margin-top: 1032px;
+    }
+}
