@@ -147,21 +147,6 @@ const Home = () => {
                 </div>
             </section>
             <section className="testimonials-card">
-                {/* <div className='testimonials-content-card'>
-                    <div className='testimonials-card-container'>
-                        <div className='testimonials-card-row'>
-                            <div className='testimonials-card-img'>
-                                <img src={gjh} alt="" className='img-test1' />
-                            </div>
-                            <div className='testimonials-card-img'>
-                                <img src={ygygy} alt="" className='img-test2' />
-                            </div>
-                            <div className='testimonials-card-img'>
-                                <img src={gjh} alt="" className='img-test3' />
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
                 <div className='explore-image'>
                     <div className='testimonials-card-container'>
                         <div className='explore-img-row'>

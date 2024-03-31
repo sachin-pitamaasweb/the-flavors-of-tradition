@@ -20,16 +20,7 @@ const PageNotFound = () => {
                 variant="contained"
                 color="primary"
                 sx={{
-                    height: '50px',
-                    width: '160px',
-                    backgroundColor: 'rgba(221, 161, 94, 1)',
-                    border: 'none',
-                    borderRadius: '16px',
-                    color: 'white',
-                    fontSize: '23px',
-                    lineHeight: '19px',
                     '&:hover': {
-                        backgroundColor: 'rgba(255, 255, 255, 1)',
                         color: 'rgba(221, 161, 94, 1)'
                     }
                 }}

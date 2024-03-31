@@ -293,8 +293,12 @@
     margin-top: 21px;
 }
 
+.image-div{
+    display: flex;
+}
+
 /* Media query for tablet devices */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .hero-content h1 {
         font-size: 30px;
         margin-top: -55px;
@@ -305,11 +309,34 @@
     .img-group {
         width: 380px;
         height: 380px;
-    }
+    }   
 
     .our-heritage-container {
         margin-top: 50px;
         margin-left: 0px;
+    }
+
+    .our-heritage-wrapper {
+        margin-left: 30px;
+    }
+
+    .our-heritage-title {
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 14px;
+        color: rgba(221, 161, 94, 1);
+    }
+
+    .heritage-content {
+        font-size: 35px;
+        color: rgba(221, 161, 94, 1);
+        font-weight: 600;
+    }
+
+    .heritage-description {
+        display: flex;
+        margin-top: 26px;
+        margin-left: 38px;
     }
 
     .heritage-p {
@@ -317,164 +344,121 @@
         font-size: 17px;
     }
 
-    .img-inkn {
-        width: 250px;
-        height: 270px;
-    }
-
-    .heritage-content {
-        font-size: 46px;
-        color: rgba(221, 161, 94, 1);
-        font-weight: 600;
-    }
-
-    .our-heritage-title {
-        font-size: 35px;
-        font-weight: bold;
-        letter-spacing: 14px;
-        color: rgba(221, 161, 94, 1);
-    }
-
     .btn-div {
         display: flex;
         justify-content: center;
-        margin-left: 400px;
-    }
-
-    .why-choose-us {
-        margin-top: 50px;
+        margin-left: 320px;
     }
 
     .why-choose-us-title {
-        color: rgba(221, 161, 94, 1);
+        text-align: center;
         font-size: 40px;
-        letter-spacing: 10px;
+        letter-spacing: 13px;
+        color: rgba(221, 161, 94, 1);
     }
 
     .why-choose-us-p {
-        font-size: 20px;
+        text-align: center;
+        font-size: 19px;
         color: rgba(55, 71, 36, 1);
     }
 
-    .image-text-row {
+    .image-div{
         display: flex;
-        justify-content: space-between;
-        margin-top: 10px;
-        padding: 0px;
-        margin-left: 36px;
+    }
+
+    .explore-text {
+        width: 60%;
+        height: 12vh;
+        background-color: rgba(96, 108, 56, 1);
+        border-top-left-radius: 64px;
+        border-bottom-left-radius: 64px;
     }
 
     .image-text {
         text-align: center;
-        margin-top: -144px;
-    }
-
-    .image-text-span {
-        font-size: 17px;
-        letter-spacing: 3px;
+        margin-top: -136px;
     }
 
     .image-text p {
-        margin: 14px 0;
+        margin: 10px 0;
         color: rgba(55, 71, 36, 1);
         font-size: 17px;
     }
 
     .explore-span {
-        font-size: 50px;
-        letter-spacing: 11px;
+        font-size: 40px;
+        letter-spacing: 20px;
         display: flex;
         justify-content: center;
         color: rgba(221, 161, 94, 1);
         align-items: center;
-    }
-
-    .explore-image {
-        align-items: center;
-        margin-top: 100px;
-    }
-
-    .explore-img-container {
-        width: 87%;
-        height: 150px;
-        background-color: rgba(96, 108, 56, 1);
-        border-radius: 76px;
-    }
-
-    .explore-img {
-        flex: 1 1;
-        margin-right: 10px;
-        margin-top: -80px;
-        position: relative;
-    }
-
-    .wide-range {
-        margin-top: 160px;
-    }
-
-    .wide-span {
-        font-size: 47px;
-        letter-spacing: 21px;
-        display: flex;
-        justify-content: center;
-        color: rgba(221, 161, 94, 1);
-        align-items: center;
-    }
-
-    .testimonials-title {
-        color: rgba(221, 161, 94, 1);
-        letter-spacing: 23px;
-    }
-
-    .testimonials-content {
-        font-size: 50px;
-        color: rgba(221, 161, 94, 1);
-    }
-
-    #explore-img-id {
-        width: 80%;
-        height: 283px;
-    }
-
-    #explore-img-id1 {
-        width: 80%;
-        height: 283px;
-    }
-
-    .testimonials-card {
-        margin-top: -81px;
-    }
-
-    .explore-text {
-        width: 64%;
-        height: 17vh;
-        background-color: rgba(96, 108, 56, 1);
-        border-top-left-radius: 30px;
-        border-bottom-left-radius: 30px;
     }
 
     .wide-text {
         width: 60%;
-        height: 17vh;
+        height: 12vh;
         background-color: rgba(96, 108, 56, 1);
         border-top-right-radius: 64px;
         border-bottom-right-radius: 64px;
     }
 
+    .explore-img-row {
+        display: flex;
+        justify-content: space-between;
+        margin-top:64px;
+    }
+
+    .wide-span {
+        font-size: 40px;
+        letter-spacing: 20px;
+        display: flex;
+        justify-content: center;
+        color: rgba(221, 161, 94, 1);
+        align-items: center;
+    }   
+    .wide-range {
+        margin-top: 90px; 
+    }
+
+    .explore-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 90px;
+    }
+
     .testimonials {
         display: flex;
         justify-content: end;
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
-}
+    .testimonials-title {
+        color: rgba(221, 161, 94, 1);
+        letter-spacing: 10px;
+    }
+    
+    .testimonials-content {
+        font-size: 40px;
+        color: rgba(221, 161, 94, 1);
+    }
 
+    .testimonials-card-container {
+        margin-top: 45px;
+    }    
+    
+}
 /* Media query for mobile devices */
 @media (max-width: 480px) {
     .hero-content h1 {
         font-size: 20px;
         margin-top: -35px;
         letter-spacing: 9px;
+    }
+
+    .image-div{
+        display: block;
     }
 
     .img-group {
@@ -674,6 +658,7 @@
     }
 
     .image-div{
+        display: block;
         margin-left: 44px;
     }
 
@@ -697,20 +682,27 @@
     .wide-range {
         margin-top: 1230px;
     }
+
+    .image-div{
+        display: block;
+    }
 }
 
 @media screen and (max-width: 320px) {
     .image-text {
-        margin-top: -204px;
+        margin-top: -206px;
         text-align: center;
     }
     .image-text p {
         color: #374724;
         font-size: 20px;
-        margin: 24px 0;
+        margin: 24px 0
     }
 
     .wide-range {
-        margin-top: 1032px;
+        margin-top: 900px;
+    }
+    .image-div{
+        display: block;
     }
 }

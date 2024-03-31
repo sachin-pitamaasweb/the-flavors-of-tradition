@@ -35,7 +35,7 @@ const Header = () => {
                     <nav className="left-nav">
                         <ul>
                             {leftNavLinks.map((link, index) => (
-                                <li key={index}><a href={link.to} onClick={handleLinkClick}>{link.text}</a></li>
+                             <li key={index}><Link to={link.to} onClick={handleLinkClick}>{link.text}</Link></li>
                             ))}
                         </ul>
                     </nav>
@@ -43,7 +43,6 @@ const Header = () => {
                     <nav className="right-nav">
                         <ul>
                             {rightNavLinks.map((link, index) => (
-                                // <li key={index}><a  onClick={handleLinkClick}>{link.text}</a></li>
                                 <li key={index}><Link to={link.to} onClick={handleLinkClick}>{link.text}</Link></li>
                             ))}
                         </ul>
@@ -58,7 +57,6 @@ const Header = () => {
                 <div className="drawer-content">
                     <ul>
                     {[...leftNavLinks, ...rightNavLinks].map((link, index) => (
-                            // <li key={index}><a href={link.url} onClick={handleLinkClick}>{link.text}</a></li>
                             <li key={index}><Link to={link.url} onClick={handleLinkClick}>{link.text}</Link></li>
                         ))}
                     </ul>
