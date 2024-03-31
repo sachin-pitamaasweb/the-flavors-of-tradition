@@ -511,20 +511,20 @@
     }
 
     .img-inkn {
-        width: 265px;
+        width: 367px;
         height: 490px;
     }
 
     .heritage-p {
         margin-left: 0px;
-        font-size: 12px;
+        font-size: 16px;
         margin-top: 20px;
     }
 
     .btn-div {
         display: flex;
         justify-content: center;
-        margin-left: 0px;
+        margin-left: -31px;
     }
 
     .why-choose-us {
@@ -538,7 +538,8 @@
     }
 
     .why-choose-us-p {
-        font-size: 15px;
+        font-size: 12px;
+        line-height: 22px;
         color: rgba(55, 71, 36, 1);
     }
 
@@ -550,11 +551,11 @@
 
     .image-text {
         text-align: center;
-        margin-top: -238px;
+        margin-top: -270px;
     }
 
     .image-text p {
-        margin: 32px 0;
+        margin: 40px 0;
         color: rgba(55, 71, 36, 1);
         font-size: 20px;
     }
@@ -629,7 +630,7 @@
     }
 
     .wide-range {
-        margin-top: 1010px;
+        margin-top: 1400px;
     }
 
     .testimonials {
@@ -664,6 +665,16 @@
 
     #explore-img-div1 {
         margin-top: -215px;
+    }
+
+    .image-container {
+        flex: 1 1;
+        margin-right: 19px;
+        margin-left: 0px;
+    }
+
+    .image-div{
+        margin-left: 44px;
     }
 
 }

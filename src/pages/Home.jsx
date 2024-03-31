@@ -69,7 +69,8 @@ const Home = () => {
                         </p>
                     </div>
                     <div className="image-row">
-                        <div className="image-container">
+                      <div className="image-div">
+                      <div className="image-container">
                             <img src={scczc} alt="scczc" className='img-scczc' />
                         </div>
                         <div className="image-container">
@@ -86,6 +87,7 @@ const Home = () => {
                         <div className="image-container">
                             <img src={fchcfvb} alt="fchcfvb" className='img-fchcfvb' />
                         </div>
+                      </div>
                     </div>
                     <div className='image-text-row'>
                         <div className="image-container-text">
