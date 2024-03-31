@@ -1,0 +1,145 @@
+header {
+    background-color: #465E2A;
+    color: #DDA15E;
+    font-size: 24px;
+    letter-spacing: 10%;
+    text-align: left;
+    padding: 10px 0;
+    height: 51px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 22px;
+}
+
+.logo {
+    background-color: white;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: circle(50% at center);
+    margin-top: 65px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 50px
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #DDA15E;
+    cursor: pointer;
+}
+
+.menu-btn {
+    display: none;
+    cursor: pointer;
+}
+
+.menu-btn span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #DDA15E;
+    margin-bottom: 5px;
+}
+
+.drawer-content {
+    padding: 20px;
+    background-color: #465E2A;
+}
+
+.drawer-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.drawer-content ul li a {
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #DDA15E !important;
+    text-decoration: none; 
+    cursor: pointer;
+}
+
+.drawer-content ul li a:hover {
+    color: #DDA15E !important;
+    text-decoration: none; 
+}
+
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        display: none;
+    }
+
+    nav ul li {
+        margin: 0;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    .menu-btn {
+        display: block;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+    .logo {
+        margin-top: -32px;
+    }
+
+    .drawer-content {
+        padding: 20px;
+        background-color: #465E2A;
+    }
+
+    .drawer-content ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .drawer-content ul li {
+        margin-bottom: 20px;
+    }
+
+    .drawer-content ul li a {
+        text-decoration: none;
+        color: #DDA15E;
+    }
+}
