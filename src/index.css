@@ -3,7 +3,7 @@ body {
   font-family: 'Libre Baskerville', serif; 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #EBFFD4;
+  /* background: #EBFFD4; */
 }
 
 code {

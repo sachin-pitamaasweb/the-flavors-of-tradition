@@ -14,18 +14,18 @@ import MRMC2 from '../assets/images/MRMC2.png';
 import gjh from '../assets/images/gjh.png';
 import ygygy from '../assets/images/ygygy.png';
 
+import Hero from '../common/Hero.jsx';
+import ExploreOur from './ExploreOur.jsx';
+import Testimonials from './Testimonials.jsx';
 
 const Home = () => {
     return (
         <>
-            <section className="hero">
-                <div className="hero-content">
-                    <div className="hero-image">
-                        <div className="image"><img src={Group} alt='group' className='img-group' /></div>
-                        <h1 className='h1-title'>The Flavors of Tradition</h1>
-                    </div>
-                </div>
-            </section>
+            <Hero
+            imageUrl={Group}
+            altText="group"
+            title="The Flavors of Tradition"
+            />
             <section className="our-heritage-container">
                 <div className="our-heritage-wrapper">
                     <h4 className="our-heritage-title">OUR HERITAGE</h4>
@@ -105,48 +105,17 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section className="explore-our">
-                <div className='explore-container'>
-                    <div className='explore'>
-                        <div className='explore-text'>
-                            <span className='explore-span'>Explore Our</span>
-                        </div>
-                    </div>
-                    <div className='explore-image'>
-                        <div className='explore-img-container'>
-                            <div className='explore-img-row'>
-                                <div className='explore-img'>
-                                    <img src={MRMC} alt="explore" className='img-explore' />
-                                </div>
-                                <div className='explore-img'>
-                                    <img src={MRMC1} alt="explore" className='img-explore' />
-                                </div>
-                                <div className='explore-img'>
-                                    <img src={MRMC2} alt="explore" className='img-explore' />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section className="wide-range">
-                <div className='wide-range-container'>
-                    <div className='wide'>
-                        <div className='wide-text'>
-                            <span className='wide-span'>wide-range</span>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section className="testimonials">
+            <ExploreOur />
+            {/* <section className="testimonials">
                 <div className='testimonials-container'>
                     <h4 className="testimonials-title">TESTIMONIALS</h4>
                     <h1 className="testimonials-content">
                         Glowing reviews from customers!
                     </h1>
                 </div>
-            </section>
-            <section className="testimonials-card">
+            </section> */}
+        <Testimonials />
+            {/* <section className="testimonials-card">
                 <div className='explore-image'>
                     <div className='testimonials-card-container'>
                         <div className='explore-img-row'>
@@ -162,7 +131,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </>
     )
 }
