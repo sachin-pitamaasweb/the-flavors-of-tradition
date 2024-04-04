@@ -15,7 +15,7 @@ const Hero = ({ imageUrl, altText, title }) => {
             </div>
           </Col>
         </Row>
-          <h1 className='h1-title'>The Flavors of Tradition</h1>
+          <h1 className='h1-title'>{title}</h1>
       </Container>
     </section>
   );
