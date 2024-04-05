@@ -1,0 +1,22 @@
+.heritage-text-div{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.heritage-span{
+    font-size: 48px;
+    letter-spacing: 30px;
+    margin-top: 33px;
+    color: #316C2F;
+}
+
+.heritage-h3{
+    font-size: 130px;
+    color: #316C2F;
+    margin-bottom: -0.5rem !important;
+}
+
+/* .heritage{
+    background-image: url('../assets/images/bg-image3.png');
+} */

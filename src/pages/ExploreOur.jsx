@@ -5,12 +5,11 @@ import "slick-carousel/slick/slick-theme.css";
 
 import '../style/ExploreOur.css';
 
-import silder1 from '../assets/images/silder1.png';
-import silder2 from '../assets/images/silder2.png';
-import silder3 from '../assets/images/silder3.png';
-import silder4 from '../assets/images/silder4.png';
-import silder5 from '../assets/images/silder5.png';
-import silder6 from '../assets/images/silder6.png';
+import slider1 from '../assets/images/slider1.png';
+import slider2 from '../assets/images/slider2.png';
+import slider3 from '../assets/images/slider3.png';
+import slider4 from '../assets/images/slider4.png';
+import slider5 from '../assets/images/slider5.png';
 
 import bgImage1 from '../assets/images/bg-image1.png';
 import bgImage2 from '../assets/images/bg-image2.png';
@@ -43,12 +42,11 @@ const ExploreOur = () => {
     }, []);
 
     const sliderImages = [
-        { src: silder1, alt: "Image 1" },
-        { src: silder2, alt: "Image 2" },
-        { src: silder3, alt: "Image 3" },
-        { src: silder4, alt: "Image 4" },
-        { src: silder5, alt: "Image 5" },
-        { src: silder6, alt: "Image 6" },
+        { src: slider1, alt: "Image 1" },
+        { src: slider2, alt: "Image 2" },
+        { src: slider3, alt: "Image 3" },
+        { src: slider4, alt: "Image 4" },
+        { src: slider5, alt: "Image 5" }
     ];
 
     const settings = {

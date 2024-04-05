@@ -1,7 +1,7 @@
 import React from 'react';
 
 import '../style/About.css';
-import '../style/Home.css';
+// import '../style/Home.css';
 
 import Group from '../assets/images/Group.png';
 import Story from '../assets/images/story.png';
