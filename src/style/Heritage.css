@@ -17,6 +17,21 @@
     margin-bottom: -0.5rem !important;
 }
 
-/* .heritage{
-    background-image: url('../assets/images/bg-image3.png');
-} */
+.heritage-img{
+    animation: swing 1s ease-in-out infinite alternate;
+}
+
+
+@keyframes swing {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(20px); 
+    }
+  }
+
+  .heritage-img-text-div{
+    margin-top: -1016px;
+    display: flex;
+  }

@@ -18,9 +18,9 @@ const Home = () => {
             />
             <Heritage />
             {/* <WhyChooseUs /> */}
-                    <WhyChooseUs />
+                    {/* <WhyChooseUs />
             <ExploreOur />
-            <Testimonials />
+            <Testimonials /> */}
         </>
     )
 }
