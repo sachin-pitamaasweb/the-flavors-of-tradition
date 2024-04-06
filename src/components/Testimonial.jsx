@@ -74,10 +74,10 @@ const Testimonial = () => {
         height: isLargeDesktop ? '370px !important' : isDesktop ? '370px !important' : isTablet ? '300px' : isMobile ? '309px !important' : '309px !important',
     }
 
-    const TestimonialUser = {
-        width: isLargeDesktop ? '100px' : isDesktop ? '100px' : isTablet ? '70px' : isMobile ? '70px' : '165px',
-        height: isLargeDesktop ? '100px' : isDesktop ? '100px' : isTablet ? '70px' : isMobile ? '70px' : '180px',
-    }
+    // const TestimonialUser = {
+    //     width: isLargeDesktop ? '225px' : isDesktop ? '225px' : isTablet ? '70px' : isMobile ? '70px' : '165px',
+    //     height: isLargeDesktop ? '100px' : isDesktop ? '100px' : isTablet ? '70px' : isMobile ? '70px' : '180px',
+    // }
 
     const TestimonialSlider = {
         paddingLeft: isLargeDesktop ? '60px' : isDesktop ? '60px' : isTablet ? '40px' : isMobile ? '1px' : '1px',
@@ -99,7 +99,7 @@ const Testimonial = () => {
                           <div>
                               <div key={index} className='testimonials-slider-inner' style={TestimonialSliderInner} >
                               <div className="testimonials-slider-2">
-                                    <img src={testimonial.imageUrl} alt="User" className="user-image" style={TestimonialUser} />
+                                    <img src={testimonial.imageUrl} alt="User" className="user-image" />
                                 </div>
                                 <h2 className="testimonials-h2">{testimonial.name}</h2>
                                 <p className="testimonials-p" style={TestimonialPara}>{testimonial.description}</p>
