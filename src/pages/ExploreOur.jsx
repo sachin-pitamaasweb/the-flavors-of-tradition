@@ -1,20 +1,17 @@
 import React, { useEffect, useState } from "react";
+
+import { useTheme } from '@mui/material/styles';
+import useMediaQuery from '@mui/material/useMediaQuery';
+
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import '../style/ExploreOur.css';
 
-import slider1 from '../assets/images/slider1.png';
-import slider2 from '../assets/images/slider2.png';
-import slider3 from '../assets/images/slider3.png';
-import slider4 from '../assets/images/slider4.png';
-import slider5 from '../assets/images/slider5.png';
-
-import bgImage1 from '../assets/images/bg-image1.png';
-import bgImage2 from '../assets/images/bg-image2.png';
-
 const ExploreOur = () => {
+
+    const theme = useTheme();
     const [slidesToShow, setSlidesToShow] = useState(4);
     const [showArrows, setShowArrows] = useState(true);
 
@@ -42,11 +39,11 @@ const ExploreOur = () => {
     }, []);
 
     const sliderImages = [
-        { src: slider1, alt: "Image 1" },
-        { src: slider2, alt: "Image 2" },
-        { src: slider3, alt: "Image 3" },
-        { src: slider4, alt: "Image 4" },
-        { src: slider5, alt: "Image 5" }
+        { src: require('../assets/images/slider1.png'), alt: "Image 1" },
+        { src: require('../assets/images/slider2.png'), alt: "Image 2" },
+        { src: require('../assets/images/slider3.png'), alt: "Image 3" },
+        { src: require('../assets/images/slider4.png'), alt: "Image 4" },
+        { src: require('../assets/images/slider5.png'), alt: "Image 5" }
     ];
 
     const settings = {
@@ -71,14 +68,24 @@ const ExploreOur = () => {
         ]
     };
 
+    const isLargeDesktop = useMediaQuery(theme.breakpoints.up('lg'));
+    const isDesktop = useMediaQuery(theme.breakpoints.up('lg'));
+    const isTablet = useMediaQuery(theme.breakpoints.up('md'));
+    const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+    
+    const ExploreH1 = {
+        fontSize: isLargeDesktop ? '48px' : isDesktop ? '38px' : isTablet ? '25px' : isMobile ? '25px' : '25px',
+        letterSpacing: isLargeDesktop ? '30px' : isDesktop ? '10px' : isTablet ? '5px' : isMobile ? '5px' : '5px',
+    }
+
     return (
         <div className="explore-our-div">
             <div className="side-img-div">
-                <img src={bgImage1} alt="MRMC FOODS" className="img-fluid-side-image" />
+                <img src={require('../assets/images/bg-image1.png')} alt="MRMC FOODS" className="img-fluid-side-image" />
             </div>
             <div className="explore-our-container-slider">
                 <div className="explore-text-div">
-                    <h1 className="explore-h1"> Explore our wide range </h1>
+                    <h1 className="explore-h1" style={ExploreH1}> Explore our wide range </h1>
                 </div>
                 <div className="explore-img-div" data-wow-delay="0.1s">
                     <Slider className="slick-slider" {...settings}>
@@ -97,7 +104,7 @@ const ExploreOur = () => {
                 </div>
             </div>
             <div className="left-side-div">
-            <img src={bgImage2} alt="MRMC FOODS" className="img-fluid-side-image-left" />
+                <img src={require('../assets/images/bg-image2.png')} alt="MRMC FOODS" className="img-fluid-side-image-left" />
             </div>
         </div>
     );

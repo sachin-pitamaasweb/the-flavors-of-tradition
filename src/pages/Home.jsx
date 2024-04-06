@@ -1,26 +1,23 @@
 import React from 'react';
 
-import Group from '../assets/images/Group.png';
-
-import Hero from '../common/Hero.jsx';
 import ExploreOur from './ExploreOur.jsx';
 import WhyChooseUs from '../components/WhyChooseUs.jsx';
-import Testimonials from './Testimonials.jsx';
+import Testimonial from '../components/Testimonial.jsx';
 import Heritage from '../components/Heritage.jsx';
+
+import ImageCarousel from '../common/ImageCarousel.jsx';
+import Quality from '../common/Quality.jsx';
 
 const Home = () => {
     return (
         <>
-            <Hero
-                imageUrl={Group}
-                altText="group"
-                title="The Flavors of Tradition"
-            />
+            <ImageCarousel />
             <Heritage />
-            {/* <WhyChooseUs /> */}
-                    {/* <WhyChooseUs />
+            <WhyChooseUs />
+            <Quality />
             <ExploreOur />
-            <Testimonials /> */}
+            <Testimonial /> 
+           
         </>
     )
 }

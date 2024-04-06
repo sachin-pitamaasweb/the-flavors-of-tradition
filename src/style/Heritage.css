@@ -22,6 +22,16 @@
 }
 
 
+.heritage-button{
+  border: none;
+  background-color: #316C2F;
+  width: 200px;
+  height: 66px;
+  border-radius: 30px;
+  color: #ffff;
+  font-size: 30px;
+}
+
 @keyframes swing {
     0% {
       transform: translateY(0);
@@ -31,7 +41,7 @@
     }
   }
 
-  .heritage-img-text-div{
+  /* .heritage-img-text-div{
     margin-top: -1016px;
     display: flex;
-  }
+  } */

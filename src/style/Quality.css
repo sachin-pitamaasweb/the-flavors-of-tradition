@@ -1,0 +1,26 @@
+/* .quality-image-text{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 146px;
+    margin-bottom: 100px;
+    padding-left: 60px;
+    padding-right: 60px;
+} */
+
+.quality{
+  overflow: hidden;
+}
+
+.quality-h4{
+    text-align: center;
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.quality-image {
+  animation: rotate 5s linear infinite;
+}
