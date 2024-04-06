@@ -74,11 +74,6 @@ const Testimonial = () => {
         height: isLargeDesktop ? '370px !important' : isDesktop ? '370px !important' : isTablet ? '300px' : isMobile ? '309px !important' : '309px !important',
     }
 
-    // const TestimonialUser = {
-    //     width: isLargeDesktop ? '225px' : isDesktop ? '225px' : isTablet ? '70px' : isMobile ? '70px' : '165px',
-    //     height: isLargeDesktop ? '100px' : isDesktop ? '100px' : isTablet ? '70px' : isMobile ? '70px' : '180px',
-    // }
-
     const TestimonialSlider = {
         paddingLeft: isLargeDesktop ? '60px' : isDesktop ? '60px' : isTablet ? '40px' : isMobile ? '1px' : '1px',
         paddingRight: isLargeDesktop ? '40px' : isDesktop ? '40px' : isTablet ? '20px' : isMobile ? '0px' : '0px',
