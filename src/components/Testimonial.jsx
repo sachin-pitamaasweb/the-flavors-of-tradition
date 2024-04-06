@@ -9,7 +9,6 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import '../style/Testimonials.css';
 
 import { testimonialsData } from '../Hepler.jsx';
-import { Height } from "@mui/icons-material";
 
 const Testimonial = () => {
     const theme = useTheme();

@@ -40,7 +40,7 @@ const ImageCarousel = () => {
                 <Carousel.Item key={index} interval={3000}>
                     <ExampleCarouselImage src={item.src} alt={item.alt} />
                     <Carousel.Caption>
-                    <img src={require('../assets/images/bg-text.png')}  style={BgText} className='bg-text-image' /> 
+                    <img src={require('../assets/images/bg-text.png')} alt="bg-text"  style={BgText} className='bg-text-image' /> 
                     </Carousel.Caption>
                 </Carousel.Item>
             ))}
