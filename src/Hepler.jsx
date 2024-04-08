@@ -25,3 +25,43 @@ export const testimonialsData = [
         description: `MRMC FOODS is our preferred supplier for a reason. Their quality basmati rice varieties and attention to detail are unmatched. Whether it's 1121 SELA or SUGANDHA STEAM, MRMC consistently delivers on flavor and texture. We're thrilled with our partnership`
     },
 ]
+
+
+export const products = [
+    {
+        name: 'Special Basmati Rice',
+        imageUrl: require('./assets/images/p1.png')
+    },
+    {
+        name: 'Popular Basmati Rice',
+        imageUrl: require('./assets/images/p2.png')
+    },
+    {
+        name: 'Royal Basmati Rice',
+        imageUrl: require('./assets/images/p3.png')
+    },
+    {
+        name: 'Special Basmati Rice',
+        imageUrl: require('./assets/images/p1.png')
+    },
+    {
+        name: 'Popular Basmati Rice',
+        imageUrl: require('./assets/images/p2.png')
+    },
+    {
+        name: 'Royal Basmati Rice',
+        imageUrl: require('./assets/images/p3.png')
+    },
+    {
+        name: 'Special Basmati Rice',
+        imageUrl: require('./assets/images/p1.png')
+    },
+    {
+        name: 'Popular Basmati Rice',
+        imageUrl: require('./assets/images/p2.png')
+    },
+    {
+        name: 'Royal Basmati Rice',
+        imageUrl: require('./assets/images/p3.png')
+    },
+];

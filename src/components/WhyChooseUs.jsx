@@ -23,7 +23,7 @@ const WhyChooseUsContent ={
 const imgFluid = {
   marginLeft: isLargeDesktop ? '1000px' : isDesktop ? '1000px' : isTablet ? '0px' : isMobile ? '0px' : '0px',
   width: isLargeDesktop ? '' : isDesktop ? '100%' : isTablet ? '100%' : isMobile ? '100%' : '100%',
-  marginTop: isLargeDesktop ? '-570px' : isDesktop ? '-570px' : isTablet ? '50px' : isMobile ? '-50px' : '-50px',
+  marginTop: isLargeDesktop ? '-570px' : isDesktop ? '-570px' : isTablet ? '50px' : isMobile ? '-10px' : '-10px',
 }
 
 const WhyChooseUsTitle = {

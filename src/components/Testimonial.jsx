@@ -25,7 +25,7 @@ const Testimonial = () => {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true, 
-        autoplaySpeed: 2000,
+        autoplaySpeed: 20000,
         responsive: [
             {
                 breakpoint: 1024 || 992,
@@ -67,6 +67,8 @@ const Testimonial = () => {
 
     const TestimonialPara = {
         fontSize: isLargeDesktop ? '18px' : isDesktop ? '18px' : isTablet ? '15px' : isMobile ? '13px' : '13px',
+        paddingLeft: isLargeDesktop ? '40px' : isDesktop ? '40px' : isTablet ? '20px' : isMobile ? '0px' : '0px',
+        paddingRight: isLargeDesktop ? '40px' : isDesktop ? '40px' : isTablet ? '20px' : isMobile ? '0px' : '0px',
     }
 
     const TestimonialSliderInner = {
@@ -94,7 +96,8 @@ const Testimonial = () => {
                           <div>
                               <div key={index} className='testimonials-slider-inner' style={TestimonialSliderInner} >
                               <div className="testimonials-slider-2">
-                                    <img src={testimonial.imageUrl} alt="User" className="user-image" />
+                                    <img src={testimonial.imageUrl} alt="User" className="user-image"  />
+                                  
                                 </div>
                                 <h2 className="testimonials-h2">{testimonial.name}</h2>
                                 <p className="testimonials-p" style={TestimonialPara}>{testimonial.description}</p>

@@ -22,7 +22,8 @@ const QualityImageStyle={
 }
 
 const QualityImage = {
-    width: isLargeDesktop ? '100%' : isDesktop ? '100%' : isTablet ? '100%' : isMobile ? '100%' : '100%',
+    width: isLargeDesktop ? '100%' : isDesktop ? '100%' : isTablet ? '100%' : isMobile ? '70%' : '70%',
+    marginLeft: isLargeDesktop ? '0px' : isDesktop ? '0px' : isTablet ? '0px' : isMobile ? '60px' : '60px',
 }
 
 

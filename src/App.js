@@ -7,6 +7,7 @@ import Footer from './components/Footer.jsx';
 import Home from './pages/Home.jsx';
 import About from './pages/About.jsx'; 
 import PageNotFound from './pages/PageNotFound.jsx';
+import Products from './pages/Products.jsx';
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <Route path="*" element={<PageNotFound />} />
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
+        <Route path='/products' element={<Products />} />
       </Routes>
       <Footer />
     </Router>
