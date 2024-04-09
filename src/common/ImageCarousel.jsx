@@ -1,16 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import useMediaQuery from '@mui/material/useMediaQuery';
-
-
 
 import { carouselItemsforMobile, carouselItemsforDesktop } from '../Hepler.jsx';
 
 import '../style/ImageCarousel.css';
 
 const ExampleCarouselImage = ({ src, alt }) => {
-    const isMobile = useMediaQuery('(max-width: 768px)');
     return (
         <img
             className="d-block w-100"
