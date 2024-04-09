@@ -47,3 +47,18 @@
     }
     
 }
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 1.25rem;
+        left: 15%;
+        padding-top: 33.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: center;
+        top: -480px !important;
+    }
+    
+}

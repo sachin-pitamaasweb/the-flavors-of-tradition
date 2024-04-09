@@ -50,7 +50,7 @@ const ImageCarousel = () => {
             return (
                 <Carousel style={carouselDivStyle} className='carousel'>
                     {carouselItemsforMobile.map((item, index) => (
-                        <Carousel.Item key={index} interval={30000}>
+                        <Carousel.Item key={index} interval={3000}>
                             <ExampleCarouselImage src={item.src} alt={item.alt} />
                             <Carousel.Caption className='carousel-caption'>
                                 <img src={require('../assets/images/bg-text.png')} alt="bg-text" className='bg-text-image-for-mobile' /> 
