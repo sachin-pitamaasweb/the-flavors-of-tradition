@@ -1,5 +1,5 @@
 .footer {
-    background-color: #606C38;
+    background-color: #29336A !important;
     height: auto;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -14,7 +14,7 @@
 }
 
 .logo-background {
-    background-color: #606C38;
+   background-color: #29336A !important;
     width: 210px;
     height: 210px;
     border-radius: 50%;

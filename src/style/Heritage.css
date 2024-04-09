@@ -41,7 +41,6 @@
     }
   }
 
-  /* .heritage-img-text-div{
-    margin-top: -1016px;
-    display: flex;
-  } */
+  @media screen and (max-width: 325px) {
+    
+  }

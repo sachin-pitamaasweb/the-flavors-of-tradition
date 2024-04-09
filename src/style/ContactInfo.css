@@ -1,0 +1,172 @@
+.contact-card {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    height: 70% !important;
+    border: 1px solid #29336A !important;
+    border-radius: 25px !important;
+}
+
+.contacts-container {
+    justify-content: center !important;
+    gap: 100px !important;
+}
+
+
+.icon {
+    color: #316C2F !important;
+    margin-left: 194px !important;
+    margin-top: 10px !important;
+    font-size: 65px !important;
+}
+
+.contact-info {
+    text-align: center !important;
+    margin-top: 40px !important;
+    font-size: 30px !important;
+    font-family: Libre Baskerville, serif !important;
+    color: #316C2F !important;
+}
+
+.contact-card-content {
+    padding-bottom: 0px !important;
+}
+
+.contact-card-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .centered {
+    text-align: center;
+  }
+
+@media screen and (max-width: 320px) {
+    .contacts-container {
+        justify-content: center !important;
+        gap: 0px !important;
+    }
+
+    .icon {
+        color: #316C2F !important;
+        margin-left: 90px !important;
+        margin-top: 10px !important;
+        font-size: 65px !important;
+    }
+
+    .contact-info {
+        text-align: center !important;
+        margin-top: 25px !important;
+        font-size: 20px !important;
+        font-family: Libre Baskerville, serif !important;
+        color: #316C2F !important;
+    }
+
+    .custom-grid-contacts {
+
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+        padding-top: 40px !important;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+    .contacts-container {
+        justify-content: center !important;
+        gap: 0px !important;
+    }
+
+    .icon {
+        color: #316C2F !important;
+        margin-left: 130px !important;
+        margin-top: 10px !important;
+        font-size: 65px !important;
+    }
+
+    .contact-info {
+        text-align: center !important;
+        margin-top: 25px !important;
+        font-size: 20px !important;
+        font-family: Libre Baskerville, serif !important;
+        color: #316C2F !important;
+    }
+
+    .custom-grid-contacts {
+
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+        padding-top: 40px !important;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+    .contacts-container {
+        justify-content: center !important;
+        gap: 0px !important;
+    }
+
+    .icon {
+        color: #316C2F !important;
+        margin-left: 130px !important;
+        margin-top: 10px !important;
+        font-size: 65px !important;
+    }
+
+    .contact-info {
+        text-align: center !important;
+        margin-top: 25px !important;
+        font-size: 20px !important;
+        font-family: Libre Baskerville, serif !important;
+        color: #316C2F !important;
+    }
+
+    .custom-grid-contacts {
+        padding-left: 55px !important;
+        padding-right: 40px !important;
+        padding-top: 40px !important;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .contacts-container {
+        justify-content: center !important;
+        gap: 40px !important;
+    }
+
+    .icon {
+        color: #316C2F !important;
+        margin-left: 77px !important;
+        margin-top: 10px !important;
+        font-size: 37px !important;
+    }
+
+    .contact-info {
+        text-align: center !important;
+        margin-top: 25px !important;
+        font-size: 13px !important;
+        font-family: Libre Baskerville, serif !important;
+        color: #316C2F !important;
+    }
+
+    .custom-grid-contacts {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        padding-top: 40px !important;
+    }
+    .contact-card {
+        background-color: transparent !important;
+        box-shadow: none !important;
+        height: 60% !important;
+        border: 1px solid #29336A !important;
+        border-radius: 25px !important;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .contacts-container {
+        justify-content: center !important;
+        gap: 40px !important;
+    }
+    
+}

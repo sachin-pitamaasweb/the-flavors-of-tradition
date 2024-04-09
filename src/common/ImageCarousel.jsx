@@ -35,7 +35,7 @@ const ImageCarousel = () => {
        marginTop: '0px'
     }
     return (
-        <Carousel style={carouselDiv}>
+        <Carousel style={carouselDiv} className='carousel'>
             {carouselItems.map((item, index) => (
                 <Carousel.Item key={index} interval={3000}>
                     <ExampleCarouselImage src={item.src} alt={item.alt} />

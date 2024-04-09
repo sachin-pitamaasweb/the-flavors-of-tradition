@@ -5,6 +5,7 @@
 
 .quality-h4{
     text-align: center;
+    font-family: 'Libre Baskerville', serif; 
 }
 
 @keyframes rotate {
@@ -14,4 +15,89 @@
 
 .quality-image {
   animation: rotate 5s linear infinite;
+}
+
+
+@media screen and (max-width: 325px) {
+
+  .quality{
+    overflow: hidden;
+    margin-top: 50px;
+  }
+  
+
+  .quality-h4{
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 13px;
+    margin-left: 68px;
+}
+
+.quality-image-container{
+  margin-right: 53px;
+}
+}
+
+@media screen and (min-width: 326px) and (max-width: 375px) {
+  .quality{
+    overflow: hidden;
+    margin-top: 50px;
+  }
+  
+
+  .quality-h4{
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 13px;
+    margin-left: 68px;
+}
+
+.quality-image-container{
+  margin-right: 53px;
+}
+}
+
+@media  screen and (min-width: 376px) and (max-width: 425px) {
+  .quality{
+    overflow: hidden;
+    margin-top: 50px;
+  }
+  
+  .quality-h4{
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 13px;
+    margin-left: 68px;
+}
+
+.quality-image-container{
+  margin-right: 53px;
+}
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .quality{
+    overflow: hidden;
+    margin-top: 50px;
+  }
+  
+  .quality-h4{
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 18px;
+    margin-left: 68px;
+}
+
+.quality-image{
+  width: 50% !important;
+  margin-left: 110px !important;
+}
+
+.quality-image-container{
+  margin-right: 53px;
+}
+
+.quality{
+  overflow: hidden;
+  margin-top: 100px;
+  padding-left: 10px;
+  padding-right: 80px;
+}
+  
 }

@@ -57,7 +57,7 @@ const Header = () => {
                 <div className="drawer-content">
                     <ul>
                     {[...leftNavLinks, ...rightNavLinks].map((link, index) => (
-                            <li key={index}><Link to={link.url} onClick={handleLinkClick}>{link.text}</Link></li>
+                            <li key={index}><Link to={link.to} onClick={handleLinkClick}>{link.text}</Link></li>
                         ))}
                     </ul>
                 </div>
