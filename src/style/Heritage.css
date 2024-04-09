@@ -1,28 +1,28 @@
-.heritage-text-div{
-    text-align: center;
-    margin-top: 60px;
-    margin-bottom: 100px;
+.heritage-text-div {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 100px;
 }
 
-.heritage-span{
-    font-size: 48px;
-    letter-spacing: 30px;
-    margin-top: 33px;
-    color: #316C2F;
+.heritage-span {
+  font-size: 48px;
+  letter-spacing: 30px;
+  margin-top: 33px;
+  color: #316C2F;
 }
 
-.heritage-h3{
-    font-size: 130px;
-    color: #316C2F;
-    margin-bottom: -0.5rem !important;
+.heritage-h3 {
+  font-size: 130px;
+  color: #316C2F;
+  margin-bottom: -0.5rem !important;
 }
 
-.heritage-img{
-    animation: swing 1s ease-in-out infinite alternate;
+.heritage-img {
+  animation: swing 1s ease-in-out infinite alternate;
 }
 
 
-.heritage-button{
+.heritage-button {
   border: none;
   background-color: #316C2F;
   width: 200px;
@@ -33,47 +33,81 @@
 }
 
 @keyframes swing {
-    0% {
-      transform: translateY(0);
-    }
-    100% {
-      transform: translateY(20px); 
-    }
+  0% {
+    transform: translateY(0);
   }
 
-  @media screen and (max-width: 325px) {
-    
-.heritage-button{
-  border: none;
-  background-color: #316C2F;
-  width: 190px !important;
-  height: 60px !important;
-  border-radius: 30px;
-  color: #ffff;
-  font-size: 20px !important;
+  100% {
+    transform: translateY(20px);
+  }
 }
+
+@media screen and (max-width: 325px) {
+
+  .heritage-button {
+    border: none;
+    background-color: #316C2F;
+    width: 190px !important;
+    height: 60px !important;
+    border-radius: 30px;
+    color: #ffff;
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (min-width: 326px) and (max-width: 375px) {
+  .heritage-button {
+    border: none;
+    background-color: #316C2F;
+    width: 190px !important;
+    height: 60px !important;
+    border-radius: 30px;
+    color: #ffff;
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .heritage-button {
+    border: none;
+    background-color: #316C2F;
+    width: 190px !important;
+    height: 60px !important;
+    border-radius: 30px;
+    color: #ffff;
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .heritage-button {
+    border: none;
+    background-color: #316C2F;
+    width: 190px !important;
+    height: 60px !important;
+    border-radius: 30px;
+    color: #ffff;
+    font-size: 20px !important;
   }
 
-  @media  screen and (min-width: 326px) and (max-width: 375px) {
-    .heritage-button{
-      border: none;
-      background-color: #316C2F;
-      width: 190px !important;
-      height: 60px !important;
-      border-radius: 30px;
-      color: #ffff;
-      font-size: 20px !important;
-    }
+  .heritage-h3 {
+    color: #316C2F !important;
+    font-family: Libre Baskerville !important;
+    font-size: 25px !important;
+    letter-spacing: 0.5px !important;
+    margin-bottom: -0.5rem !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+  .heritage-img {
+   width: 100%;
+    animation: swing 1s ease-in-out infinite alternate;
   }
 
-  @media  screen and (min-width: 376px) and (max-width: 425px) {
-    .heritage-button{
-      border: none;
-      background-color: #316C2F;
-      width: 190px !important;
-      height: 60px !important;
-      border-radius: 30px;
-      color: #ffff;
-      font-size: 20px !important;
-    }
+  .heritage-img2{
+    width: 100%;
   }
+  
+}

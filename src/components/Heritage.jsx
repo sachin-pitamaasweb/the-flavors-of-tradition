@@ -75,12 +75,12 @@ const Heritage = () => {
                     <span className="heritage-span">
                         <Typography variant="h6" sx={heritageSpanStyle}>OUR HERITAGE</Typography>
                     </span>
-                    <Typography variant="h3" sx={heritageH3Style}>Taste the Essence of Excellence with MRMC Foods</Typography>
+                    <Typography variant="h3" sx={heritageH3Style} className="heritage-h3">Taste the Essence of Excellence with MRMC Foods</Typography>
                 </div>
             </div>
             <div className="heritage-img-text">
                     <div className="heritage-img-bg-div">
-                        <img className="heritage-img" style={heritageImageStyle} src={require('../assets/images/bg-image6.png')} alt="heritage" />
+                        <img className="heritage-img-bg" style={heritageImageStyle} src={require('../assets/images/bg-image6.png')} alt="heritage" />
                     </div>
                 <div className="heritage-img-text-div" style={heritageImageStyleDiv}>
                     <img className="heritage-img2" style={heritageImageStyleMain} src={require('../assets/images/heritage.png')} alt="heritage" />

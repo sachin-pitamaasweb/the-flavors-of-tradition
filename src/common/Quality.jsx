@@ -18,10 +18,10 @@ const Quality = () => {
         padding: '0px',
     };
 
-    const QualityImage = {
-        width: '70%',
-        marginLeft: '60px',
-    };
+    // const QualityImage = {
+    //     width: isMobile ? '70%' : '90%',
+    //     marginLeft: '60px',
+    // };
 
     return (
         <>
@@ -31,25 +31,25 @@ const Quality = () => {
                         <Grid container spacing={isMobile ? 2 : 0}>
                             <Grid item xs={6} sm={6} md={6} lg={3}>
                                 <div>
-                                    <img src={require("../assets/images/Quality1.png")} alt="quality" className="quality-image" style={QualityImage}/>
+                                    <img src={require("../assets/images/Quality1.png")} alt="quality" className="quality-image" />
                                     <h4 className="quality-h4">Uncompromising <br />Quality</h4>
                                 </div>
                             </Grid>
                             <Grid item xs={6} sm={6} md={6} lg={3}>
                                 <div>
-                                    <img src={require("../assets/images/Quality2.png")} alt="quality" className="quality-image" style={QualityImage}/>
+                                    <img src={require("../assets/images/Quality2.png")} alt="quality" className="quality-image" />
                                     <h4 className="quality-h4">Diverse Varieties</h4>
                                 </div>
                             </Grid>
                             <Grid item xs={6} sm={6} md={6} lg={3}>
                                 <div>
-                                    <img src={require("../assets/images/Quality3.png")} alt="quality" className="quality-image" style={QualityImage}/>
+                                    <img src={require("../assets/images/Quality3.png")} alt="quality" className="quality-image" />
                                     <h4 className="quality-h4">Trusted Reputation</h4>
                                 </div>
                             </Grid>
                             <Grid item xs={6} sm={6} md={6} lg={3}>
                                 <div>
-                                    <img src={require("../assets/images/Quality4.png")} alt="quality" className="quality-image" style={QualityImage}/>
+                                    <img src={require("../assets/images/Quality4.png")} alt="quality" className="quality-image" />
                                     <h4 className="quality-h4">Customer-Centric</h4>
                                 </div>
                             </Grid>
