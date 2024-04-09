@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { useMediaQuery } from '@react-hook/media-query';
-import { useTheme } from '@mui/material/styles';
-// import useMediaQuery from '@mui/material/useMediaQuery';
+import useMediaQuery from '@mui/material/useMediaQuery';
 
 
 
@@ -12,8 +10,7 @@ import { carouselItemsforMobile, carouselItemsforDesktop } from '../Hepler.jsx';
 import '../style/ImageCarousel.css';
 
 const ExampleCarouselImage = ({ src, alt }) => {
-    const theme = useTheme();
-    const isMobile = useMediaQuery(theme.breakpoints.down('xs'));
+    const isMobile = useMediaQuery('(max-width: 768px)');
     return (
         <img
             className="d-block w-100"
@@ -26,9 +23,6 @@ const ExampleCarouselImage = ({ src, alt }) => {
 
 const ImageCarousel = () => {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-    const theme = useTheme();
-    const isMobile = useMediaQuery(theme.breakpoints.down('xs'));
-
 
     useEffect(() => {
         const handleResize = () => {
@@ -56,7 +50,7 @@ const ImageCarousel = () => {
             return (
                 <Carousel style={carouselDivStyle} className='carousel'>
                     {carouselItemsforMobile.map((item, index) => (
-                        <Carousel.Item key={index} interval={3000}>
+                        <Carousel.Item key={index} interval={30000}>
                             <ExampleCarouselImage src={item.src} alt={item.alt} />
                             <Carousel.Caption className='carousel-caption'>
                                 <img src={require('../assets/images/bg-text.png')} alt="bg-text" className='bg-text-image-for-mobile' /> 
