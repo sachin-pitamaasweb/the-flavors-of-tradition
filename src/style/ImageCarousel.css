@@ -1,0 +1,49 @@
+.bg-text-image-for-mobile {
+    width: 100% !important;
+    animation: swing 2s infinite alternate !important;
+}
+
+@media screen and (max-width: 325px) {
+    .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 1.25rem;
+        left: 15%;
+        padding-top: 33.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: center;
+        top: -400px !important;
+    }
+    
+}
+
+@media screen and (min-width: 326px) and (max-width: 375px) {
+    .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 1.25rem;
+        left: 15%;
+        padding-top: 33.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: center;
+        top: -400px !important;
+    }
+    
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+    .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 1.25rem;
+        left: 15%;
+        padding-top: 33.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: center;
+        top: -400px !important;
+    }
+    
+}
