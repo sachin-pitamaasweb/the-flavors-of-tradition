@@ -16,8 +16,7 @@ const ExampleCarouselImage = ({ src, alt }) => {
             className="d-block w-100"
             src={src}
             alt={alt}
-{/*             height={isMobile ? 400 : 600} */}
-           style={{ objectFit: contain, height: "auto" }}
+            style={{ objectFit: 'contain', height: "auto" }}
         />
     );
 };
