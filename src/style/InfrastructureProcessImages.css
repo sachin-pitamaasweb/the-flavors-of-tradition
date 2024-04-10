@@ -1,0 +1,193 @@
+.infrastructure-process-images {
+    background-color: #29336A;
+    width: 100%;
+    margin-top: 300px;
+}
+
+.infrastructure-process-images-container {
+    padding: 13px !important;
+    padding-left: 81px !important;
+    margin-top: -214px !important;
+}
+
+@media screen and (max-width: 325px) {
+    .infrastructure-process-img-1 {
+        width: 100% !important;
+    }
+
+    .infrastructure-process-images-container {
+        padding: 13px !important;
+        padding-left: 30px !important;
+        margin-top: 0px !important;
+    }
+
+    .infrastructure-process-images {
+        background-color: #29336A;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (min-width: 326px) and (max-width: 375px) {
+    .infrastructure-process-img-1 {
+        width: 100% !important;
+    }
+
+    .infrastructure-process-images-container {
+        padding: 13px !important;
+        padding-left: 30px !important;
+        margin-top: 0px !important;
+    }
+
+    .infrastructure-process-images {
+        background-color: #29336A;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+}
+
+
+@media screen and (min-width: 376px) and (max-width: 430px) {
+    .infrastructure-process-img-1 {
+        width: 100% !important;
+    }
+
+    .infrastructure-process-images-container {
+        padding: 13px !important;
+        padding-left: 30px !important;
+        margin-top: 0px !important;
+    }
+
+    .infrastructure-process-images {
+        background-color: #29336A;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (min-width: 431px) and (max-width: 768px) {
+    .infrastructure-process-img-1 {
+        width: 100% !important;
+    }
+
+    .infrastructure-process-images-container {
+        padding: 13px !important;
+        padding-left: 30px !important;
+        margin-top: -112px !important;
+    }
+
+    .infrastructure-process-images {
+        background-color: #29336A;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .infrastructure-process-images {
+        background-color: #29336A;
+        width: 100%;
+        margin-top: 150px !important;
+    }
+
+    .infrastructure-process-img-1 {
+        width: 100% !important;
+    }
+
+    .infrastructure-process-images-container {
+        padding: 13px !important;
+        padding-left: 30px !important;
+        margin-top: -112px !important;
+    }
+
+    .infrastructure-process-images {
+        background-color: #29336A;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+
+    .infrastructure-process-images {
+        background-color: #29336A;
+        width: 100%;
+        margin-top: 150px !important;
+    }
+
+    .infrastructure-process-img-1 {
+        width: 100% !important;
+    }
+
+    .infrastructure-process-images-container {
+        padding: 13px !important;
+        padding-left: 30px !important;
+        margin-top: -112px !important;
+    }
+
+    .infrastructure-process-images {
+        background-color: #29336A;
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
+
+    .infrastructure-process-images {
+        background-color: #29336A;
+        width: 100%;
+        margin-top: 300px !important;
+    }
+
+    .infrastructure-process-img-1 {
+        width: 100% !important;
+    }
+
+    .infrastructure-process-images-container {
+        padding: 13px !important;
+        padding-left: 30px !important;
+        margin-top: -212px !important;
+    }
+
+    .infrastructure-process-images {
+        background-color: #29336A;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (min-width: 2561px) and (max-width: 3840px) {
+
+    .infrastructure-process-images {
+        background-color: #29336A;
+        width: 100%;
+        margin-top: 400px !important;
+    }
+
+    .infrastructure-process-img-1 {
+        width: 100% !important;
+    }
+
+    .infrastructure-process-images-container {
+        padding: 13px !important;
+        padding-left: 20px !important;
+        margin-top: -312px !important;
+    }
+
+    .infrastructure-process-images {
+        background-color: #29336A;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+}

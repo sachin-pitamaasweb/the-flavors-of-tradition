@@ -1,0 +1,10 @@
+.custom-grid {
+    display: grid;
+    gap: 10px; /* Adjust the gap between grid items */
+  }
+  
+  .grid-item {
+    background-color: #ccc; /* Example background color */
+    padding: 20px; /* Example padding */
+  }
+  

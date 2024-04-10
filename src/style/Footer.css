@@ -461,7 +461,7 @@
     
 }
 
-@media screen and  (min-width: 426px) and (max-width: 430px) {
+@media screen and  (min-width: 426px) and (max-width: 480px) {
     .logo-container {
         display: flex;
         justify-content: flex-start;

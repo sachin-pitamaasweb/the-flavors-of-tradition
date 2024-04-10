@@ -1,0 +1,13 @@
+.drop-us-a-line-background-image{
+        display: flex;
+        justify-content: end;
+        margin-right: 114px;
+}
+.drop-us-a-line{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root {
+    border-radius: 20px;
+}
