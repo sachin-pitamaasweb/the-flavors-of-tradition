@@ -1,11 +1,11 @@
 header {
-    background-color: #29336A;
+    background-color: #29336A !important;
     color: #DDA15E;
     font-size: 24px;
-    letter-spacing: 10%;
-    text-align: left;
-    padding: 10px 0;
-    height: 51px;
+    letter-spacing: 10% !important;
+    text-align: left !important;
+    padding: 10px 0 !important;
+    height: 51px !important;
 }
 
 .container {
@@ -141,5 +141,13 @@ nav ul li a {
     .drawer-content ul li a {
         text-decoration: none;
         color: #DDA15E;
+    }
+}
+
+
+@media screen and (max-width: 1280px) and (min-width: 992px) {
+    header{
+        height: 51px !important;
+        font-size: 20px !important;
     }
 }

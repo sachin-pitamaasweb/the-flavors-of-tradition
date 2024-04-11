@@ -6,8 +6,193 @@
 .drop-us-a-line{
     padding-left: 200px;
     padding-right: 200px;
+    margin-top: -140px;
 }
 
 .MuiInputBase-root.MuiOutlinedInput-root {
     border-radius: 20px;
+    color: #606C38;
+    background-color: #ffffff;
+}
+
+.drop-us-a-line-heading{
+    font-size: 96px;
+    color: #316C2F;
+    font-weight: 400;
+    font-family: 'Libre Baskerville', serif; 
+}
+
+.drop-us-a-line-bottom-img{
+    margin-top: -156px;
+    margin-left: 30px;
+    width: 14%;
+}
+.drop-us-a-line-button-container{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.drop-us-a-line-button{
+    background-color: #29336A;
+    color: #ffffff;
+    font-size: 31px;
+    width: 140px;
+    border-radius: 36px;
+    height: 63px;
+    border: 1px solid #29336A;
+}
+
+@media screen and (max-width: 325px) {
+    .drop-us-a-line-background-image {
+        display: flex !important;
+        justify-content: end !important;
+        margin-right: 0px !important;
+    }
+    .drop-us-a-line-img{
+        display: none;
+    }
+
+    .drop-us-a-line {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        margin-top: 60px !important;
+    }
+
+    .drop-us-a-line-heading{
+        font-size: 25px;
+        color: #316C2F;
+        font-weight: 400;
+        font-family: 'Libre Baskerville', serif; 
+    }
+    
+}
+
+@media screen and (min-width: 326px) and (max-width: 375px) {
+    .drop-us-a-line-background-image {
+        display: flex !important;
+        justify-content: end !important;
+        margin-right: 0px !important;
+    }
+    .drop-us-a-line-img{
+        display: none;
+    }
+
+    .drop-us-a-line {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        margin-top: 60px !important;
+    }
+
+    .drop-us-a-line-heading{
+        font-size: 25px;
+        color: #316C2F;
+        font-weight: 400;
+        font-family: 'Libre Baskerville', serif; 
+    }
+    
+}
+
+
+@media screen and (min-width: 376px) and (max-width: 480px) {
+    .drop-us-a-line-background-image {
+        display: flex !important;
+        justify-content: end !important;
+        margin-right: 0px !important;
+    }
+    .drop-us-a-line-img{
+        display: none;
+    }
+
+    .drop-us-a-line {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        margin-top: 60px !important;
+    }
+
+    .drop-us-a-line-heading{
+        font-size: 25px;
+        color: #316C2F;
+        font-weight: 400;
+        font-family: 'Libre Baskerville', serif; 
+    }
+    
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .drop-us-a-line {
+        padding-left: 39px;
+        padding-right: 42px;
+        margin-top: -140px;
+    }
+
+    .drop-us-a-line-heading {
+        font-size: 61px;
+        color: #316C2F;
+        font-weight: 400;
+        font-family: 'Libre Baskerville', serif;
+    }
+
+    .drop-us-a-line-button {
+        background-color: #29336A;
+        color: #ffffff;
+        font-size: 27px;
+        width: 125px;
+        border-radius: 36px;
+        height: 50px;
+        border: 1px solid #29336A;
+    }
+
+    .drop-us-a-line-img{
+       width: 30%;
+    }
+
+    .drop-us-a-line-background-image {
+        display: flex;
+        justify-content: end;
+        margin-right: 40px !important;
+    }
+
+    .drop-us-a-line-bottom-img {
+        margin-top: -152px;
+        margin-left: -34px;
+        width: 20%;
+    }
+
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .drop-us-a-line {
+        padding-left: 81px !important;
+        padding-right: 85px !important;
+        margin-top: -140px !important;
+    }
+
+    .drop-us-a-line-background-image {
+        display: flex !important;
+        justify-content: end !important;
+        margin-right: 114px !important;
+    }
+
+    .drop-us-a-line-img{
+        width: 28% !important;
+    }
+
+    .drop-us-a-line-heading {
+        font-size: 65px !important;
+        color: #316C2F !important;
+        font-weight: 400 !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+    .drop-us-a-line-button {
+        background-color: #29336A;
+        color: #ffffff;
+        font-size: 20px;
+        width: 124px;
+        border-radius: 36px;
+        height: 45px;
+        border: 1px solid #29336A;
+    }
+    
 }

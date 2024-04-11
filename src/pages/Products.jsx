@@ -1,15 +1,21 @@
 import React from "react";
 
 import ProductsCards from "../components/ProductsCards";
-import ImageCarousel from "../common/ImageCarousel";
+// import ImageCarousel from "../common/ImageCarousel";
 import ProductLineup from "../components/ProductLineup";
 
+import HeroSection from "../common/HeroSection";
+
 const Products = () => {
-    return(
+    return (
         <>
-        <ImageCarousel />
-        <ProductLineup />
-        <ProductsCards />
+            {/* <ImageCarousel /> */}
+            <HeroSection
+                imageSrc={require('../assets/images/product-banner.jpg')}
+                // text="Products"
+            />
+            <ProductLineup />
+            <ProductsCards />
         </>
     )
 }

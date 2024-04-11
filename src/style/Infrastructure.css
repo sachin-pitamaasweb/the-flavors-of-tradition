@@ -99,11 +99,11 @@
     }
 
     .infrastructure-process-img-1-process {
-        width: 90%;
-        height: auto;
-        object-fit: contain;
-        margin-left: 22px;
-        margin-top: 22px;
+        width: 73% !important;
+        height: auto !important;
+        object-fit: contain !important;
+        margin-left: 49px !important;
+        margin-top: 19px !important;
     }
 
     .infrastructure-grids.visited .infrastructure-text {
@@ -152,11 +152,11 @@
     }
 
     .infrastructure-process-img-1-process {
-        width: 90%;
-        height: auto;
-        object-fit: contain;
-        margin-left: 22px;
-        margin-top: 22px;
+        width: 80% !important;
+        height: auto !important;
+        object-fit: contain !important;
+        margin-left: 49px !important;
+        margin-top: 23px !important;
     }
 }
 

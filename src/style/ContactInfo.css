@@ -13,9 +13,14 @@
 }
 
 
+.icon-div{
+    display: flex !important;
+    justify-content: center !important;
+}
+
 .icon {
     color: #316C2F !important;
-    margin-left: 194px !important;
+    /* margin-left: 194px !important; */
     margin-top: 10px !important;
     font-size: 65px !important;
 }
@@ -43,15 +48,28 @@
     text-align: center;
   }
 
+  .contact-card-content {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%; /* Ensure the content takes the full height of the container */
+  }
+  
+
 @media screen and (max-width: 320px) {
     .contacts-container {
         justify-content: center !important;
         gap: 0px !important;
     }
 
+    .icon-div{
+        display: flex !important;
+        justify-content: center !important;
+    }
+
     .icon {
         color: #316C2F !important;
-        margin-left: 90px !important;
+        /* margin-left: 90px !important; */
         margin-top: 10px !important;
         font-size: 65px !important;
     }
@@ -78,9 +96,14 @@
         gap: 0px !important;
     }
 
+    .icon-div{
+        display: flex !important;
+        justify-content: center !important;
+    }
+
     .icon {
         color: #316C2F !important;
-        margin-left: 115px !important;
+        /* margin-left: 115px !important; */
         margin-top: 10px !important;
         font-size: 65px !important;
     }
@@ -108,9 +131,14 @@
         margin-top: 8px !important;
     }
 
+    .icon-div{
+        display: flex !important;
+        justify-content: center !important;
+    }
+
     .icon {
         color: #316C2F !important;
-        margin-left: 130px !important;
+        /* margin-left: 130px !important; */
         margin-top: 10px !important;
         font-size: 65px !important;
     }
@@ -137,9 +165,14 @@
        margin-top: 8px !important; 
     }
 
+    .icon-div{
+        display: flex !important;
+        justify-content: center !important;
+    }
+
     .icon {
         color: #316C2F !important;
-        margin-left: 77px !important;
+        /* margin-left: 77px !important; */
         margin-top: 10px !important;
         font-size: 37px !important;
     }
@@ -173,9 +206,14 @@
        margin-top: 8px !important; 
     }
 
+    .icon-div{
+        display: flex !important;
+        justify-content: center !important;
+    }
+
     .icon {
         color: #316C2F !important;
-        margin-left: 105px !important;
+        /* margin-left: 105px !important; */
         margin-top: 10px !important;
         font-size: 37px !important;
     }
@@ -202,16 +240,36 @@
     }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1450px) {
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .icon-div{
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .icon {
+        color: #316C2F !important;
+        /* margin-left: 120px !important; */
+        margin-top: 10px !important;
+        font-size: 60px !important;
+    }
+    
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1450px) {
     .contacts-container {
         justify-content: center !important;
         gap: 40px !important;
        margin-top: 8px !important; 
     }
 
+    .icon-div{
+        display: flex !important;
+        justify-content: center !important;
+    }
+
     .icon {
         color: #316C2F !important;
-        margin-left: 150px !important;
+        /* margin-left: 150px !important; */
         margin-top: 10px !important;
         font-size: 60px !important;
     }
@@ -245,10 +303,13 @@
         gap: 40px !important;
        margin-top: 8px !important; 
     }
-
+    .icon-div{
+        display: flex !important;
+        justify-content: center !important;
+    }
     .icon {
         color: #316C2F !important;
-        margin-left: 170px !important;
+        /* margin-left: 255px !important; */
         margin-top: 10px !important;
         font-size: 100px !important;
     }
@@ -283,9 +344,15 @@
        margin-top: 8px !important; 
     }
 
+    .icon-div{
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+
     .icon {
         color: #316C2F !important;
-        margin-left: 368px !important;
+        /* margin-left: 368px !important; */
         margin-top: 57px !important;
         font-size: 163px !important;
     }

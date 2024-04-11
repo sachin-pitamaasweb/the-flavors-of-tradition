@@ -1,26 +1,23 @@
 import React from 'react';
 
 import '../style/About.css';
-// import '../style/Home.css';
 
-import Group from '../assets/images/Group.png';
 import Story from '../assets/images/story.png';
 import scczc from '../assets/images/SCCZC.png';
 import sxa from '../assets/images/sxa.png';
 import fchcfvb from '../assets/images/fchcfvb.png';
 import axax from '../assets/images/axax.png';
 
+import HeroSection from '../common/HeroSection';
+
 const About = () => {
     return (
         <>
-            <section className="hero">
-                <div className="hero-content">
-                    <div className="hero-image">
-                        <div className="image"><img src={Group} alt='group' className='img-group' /></div>
-                        <h1 className='h1-title'>About Us</h1>
-                    </div>
-                </div>
-            </section>
+
+            <HeroSection
+             imageSrc={require('../assets/images/about-banner.png')}
+             text="About Us"
+            />
             <section className="about-founding-story">
                 <div className='about-founding-story-1'>
                     <div className="about-founding-story-text">
