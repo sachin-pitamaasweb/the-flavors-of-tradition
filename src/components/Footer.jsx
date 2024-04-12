@@ -1,5 +1,6 @@
 
 import React from "react";
+import { Link } from 'react-router-dom';
 import { Grid } from '@mui/material';
 
 import '../style/Footer.css';
@@ -21,9 +22,9 @@ const Footer = () => {
                     <Grid items xs={12}>
 
                         <div className="social-icon">
-                            <img src={require('../assets/images/Instagram.png')} alt="instagram" className='icons' />
-                            <img src={require('../assets/images/TwitterX.png')} alt="twitter" className='icons' />
-                            <img src={require('../assets/images/Facebook.png')} alt="facebook" className='icons' />
+                            <img src={require('../assets/images/Instagram.png')} alt="instagram" className='icons' style={{ objectFit: 'contain' }} />
+                            {/* <img src={require('../assets/images/TwitterX.png')} alt="twitter" className='icons' /> */}
+                            <img src={require('../assets/images/Facebook.png')} alt="facebook" className='icons' style={{ objectFit: 'contain' }} />
                         </div>
                     </Grid>
                     <Grid items xs={12}>
@@ -31,12 +32,12 @@ const Footer = () => {
                             <div className='quick-links'>
                                 <div className='quick-links-title'>Quick-Links</div>
                                 <div className='quick-links-lists'>
-                                    <span className='quick-links-span'>Home</span>
-                                    <span className='quick-links-span'>About Us</span>
-                                    <span className='quick-links-span'>Products</span>
-                                    <span className='quick-links-span'>Events</span>
-                                    <span className='quick-links-span'>Infrastructure</span>
-                                    <span className='quick-links-span'>Contacts Us</span>
+                                    <Link to='/' style={{ textDecoration: 'none' }}><span className='quick-links-span'>Home</span></Link>
+                                    <Link to='/about' style={{ textDecoration: 'none' }}><span className='quick-links-span'>About Us</span></Link>
+                                    <Link to='/products' style={{ textDecoration: 'none' }}><span className='quick-links-span'>Products</span></Link>
+                                    <Link to='/events' style={{ textDecoration: 'none' }}><span className='quick-links-span'>Events</span></Link>
+                                    <Link to='/infrastructure' style={{ textDecoration: 'none' }}><span className='quick-links-span'>Infrastructure</span></Link>
+                                    <Link to='/contacts' style={{ textDecoration: 'none' }}><span className='quick-links-span'>Contacts Us</span></Link>
                                 </div>
                             </div>
                         </div>
@@ -59,7 +60,7 @@ const Footer = () => {
                                     <h3 className='contact-us-span'>xyz@gmail.coms</h3>
                                 </div>
                             </div>
-                            </div>
+                        </div>
                     </Grid>
                 </Grid>
             </footer>

@@ -1,0 +1,274 @@
+.heritage-text-container{
+    padding-top: 100px;
+}
+
+.heritage-text{
+    font-size: 65px !important;
+    font-family: 'Libre Baskerville', serif !important;
+    font-weight: 600 !important;
+    letter-spacing: 25px !important;
+    color: #316C2F !important;
+}
+
+.heritage-text-sub{
+    font-size: 126px !important;
+    font-family: 'Libre Baskerville', serif !important;
+    color: #316C2F !important;
+}
+
+@media screen and (max-width: 325px) {
+    .heritage-text-container{
+        padding-top: 50px;
+    }
+    
+    .heritage-text{
+        font-size: 20px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 600 !important;
+        letter-spacing: 8px !important;
+        color: #316C2F !important;
+    }
+    
+    .heritage-text-sub{
+        font-size: 23px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        color: #316C2F !important;
+    }
+     
+}
+
+@media screen and (min-width: 326px) and (max-width: 500px) {
+    .heritage-text-container{
+        padding-top: 50px;
+    }
+    
+    .heritage-text{
+        font-size: 25px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 600 !important;
+        letter-spacing: 8px !important;
+        color: #316C2F !important;
+    }
+    
+    .heritage-text-sub{
+        font-size: 25px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        color: #316C2F !important;
+    }
+    
+}
+
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    .heritage-text-container{
+        padding-top: 65px;
+    }
+    
+    .heritage-text{
+        font-size: 30px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 600 !important;
+        letter-spacing: 8px !important;
+        color: #316C2F !important;
+    }
+    
+    .heritage-text-sub{
+        font-size: 51px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        color: #316C2F !important;
+    }
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .heritage-text-container{
+        padding-top: 70px;
+    }
+    
+    .heritage-text{
+        font-size: 39px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 600 !important;
+        letter-spacing: 12px !important;
+        color: #316C2F !important;
+    }
+    
+    .heritage-text-sub{
+        font-size: 68px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        color: #316C2F !important;
+    
+    }
+    
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .heritage-text-container{
+        padding-top: 70px;
+    }
+    
+    .heritage-text{
+        font-size: 39px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 600 !important;
+        letter-spacing: 12px !important;
+        color: #316C2F !important;
+    }
+    
+    .heritage-text-sub{
+        font-size: 85px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        color: #316C2F !important;
+    }
+    
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1366px) {
+    .heritage-text-container{
+        padding-top: 70px;
+    }
+    
+    .heritage-text{
+        font-size: 48px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 600 !important;
+        letter-spacing: 15px !important;
+        color: #316C2F !important;
+    }
+    
+    .heritage-text-sub{
+        font-size: 90px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        color: #316C2F !important;
+    }
+    
+}
+
+
+@media screen and (min-width: 1367px) and (max-width: 1440px) {
+    .heritage-text-container{
+        padding-top: 70px;
+    }
+    
+    .heritage-text{
+        font-size: 48px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 600 !important;
+        letter-spacing: 15px !important;
+        color: #316C2F !important;
+    }
+    
+    .heritage-text-sub{
+        font-size: 100px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        color: #316C2F !important;
+    } 
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+    .heritage-text-container{
+        padding-top: 70px;
+    }
+    
+    .heritage-text{
+        font-size: 60px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 600 !important;
+        letter-spacing: 15px !important;
+        color: #316C2F !important;
+    }
+    
+    .heritage-text-sub{
+        font-size: 130px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        color: #316C2F !important;
+    }
+    
+}
+
+
+@media screen and (min-width: 1921px) and (max-width: 2048px) {
+    .heritage-text-container{
+        padding-top: 70px;
+    }
+    
+    .heritage-text{
+        font-size: 95px !important;
+    font-family: 'Libre Baskerville', serif !important;
+    font-weight: 600 !important;
+    letter-spacing: 30px !important;
+    color: #316C2F !important;
+    }
+    
+    .heritage-text-sub{
+        font-size: 150px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        color: #316C2F !important;
+    }
+    
+}
+
+@media screen and (min-width: 2049px) and (max-width: 2560px) {
+    .heritage-text-container{
+        padding-top: 70px;
+    }
+    
+    .heritage-text{
+        font-size: 90px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 600 !important;
+        letter-spacing: 30px !important;
+        color: #316C2F !important;
+    }
+    
+    .heritage-text-sub{
+        font-size: 170px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        color: #316C2F !important;
+    }
+    
+}
+
+@media screen and (min-width: 2561px) and (max-width: 3200px) {
+    .heritage-text-container{
+        padding-top: 100px;
+    }
+    
+    .heritage-text{
+        font-size: 140px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 600 !important;
+        letter-spacing: 70px !important;
+        color: #316C2F !important;
+    }
+    
+    .heritage-text-sub{
+        font-size: 215px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        color: #316C2F !important;
+    }
+    
+}
+
+@media screen and (min-width: 3201px) and (max-width: 5000px) {
+    .heritage-text-container{
+        padding-top: 100px;
+    }
+    
+    .heritage-text{
+        font-size: 150px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 600 !important;
+        letter-spacing: 55px !important;
+        color: #316C2F !important;
+    }
+    
+    .heritage-text-sub{
+        font-size: 263px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        color: #316C2F !important;
+    }
+    
+}
+
+
+

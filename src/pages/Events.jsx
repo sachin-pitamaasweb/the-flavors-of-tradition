@@ -12,6 +12,7 @@ const Events = () => {
             <HeroSection 
             imageSrc={require('../assets/images/event-banner.png')}
             text="Events"
+            isStyled={true}
             />
             <EventsCards />
         </>

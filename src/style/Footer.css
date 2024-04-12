@@ -48,7 +48,6 @@
     height: 98px;
 }
 
-
 .social-icon{
     display: block;
     /* justify-content: center; */
@@ -88,6 +87,7 @@
 .quick-links-span {
     color: white;
     text-align: center;
+    font-family: 'Libre Baskerville', serif;    
 } 
 
 .contact-us{
@@ -345,7 +345,123 @@
     
 }
 
-@media screen and (min-width: 376px) and (max-width: 425px) {
+
+@media screen and (min-width: 376px) and (max-width: 420px) {
+    .logo-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 125px !important;
+        padding-top: 20px !important; 
+    }
+
+    .logo-background {
+        background-color: #29336A !important;
+        width: 150px !important;
+        height: 150px !important;
+        border-radius: 50% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -100px !important;
+    }
+
+    .footer-logo {
+        position: relative;
+        z-index: 1;
+        background-color: #ffffff;
+        border-radius: 50%;
+        width: 140px !important;
+        height: 140px !important;
+    }
+
+    .footer-logo-img {
+        margin-left: 14px !important;
+        margin-top: 30px !important;
+        width: 110px !important;
+        height: 72px !important;
+    }
+
+    .social-icon{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        margin-left: 11px !important
+        ;
+    }
+
+    .icons{
+        width: 50px;
+        height: 50px;
+    }
+
+    
+    .quick-links-container {
+        display: block;
+        margin-left: 0px !important;
+        margin-top: 0px !important;
+        margin-bottom: 8px !important;
+    }
+    .quick-links-title {
+        margin-top: 19px;
+        font-size: 23px;
+        color: rgba(221, 161, 94, 1);
+        font-family: 'Libre Baskerville', serif; 
+        margin-left: 157px;
+    }
+    
+    .quick-links-lists {
+        display: grid;
+        justify-content: center;
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        gap: 20px;
+        font-family: 'Libre Baskerville', serif; 
+    
+    }
+
+    
+    .contact-us{
+        margin-top: -90px !important;
+        /* display: block !important; */
+        /* justify-content: center !important; */
+        /* align-items: center !important; */
+        padding-left: 0px !important;
+    }
+
+    .contact-us-icons-details{
+        display: block !important;
+        gap: 0 !important;
+        margin-bottom: 1px !important;
+    }
+
+    .hr-line {
+        width: 100% !important;
+        border-top: 7px solid #efe3e3 !important;
+    }
+
+    .contact-us-span {
+        color: rgba(221, 161, 94, 1);
+        font-size: 20px !important;
+        text-align: center;
+        margin-top: 5px !important;
+    }
+    
+    .contact-us-icons-details{
+        display: flex;
+        gap: 225px;
+        margin-bottom: 61px;
+    }
+
+    .contact-us-icons{
+        margin-left: 50px !important;
+        width: 50px !important;
+        height: 50px !important;
+    }
+}
+
+@media screen and (min-width: 421px) and (max-width: 425px) {
     .logo-container {
         display: flex;
         justify-content: flex-start;
@@ -385,8 +501,7 @@
         display: flex;
         justify-content: center;
         margin-top: 40px;
-        margin-left: 0px !important
-        ;
+        margin-left: 17px !important;
     }
 
     .icons{
@@ -578,7 +693,7 @@
     
 }
 
-@media screen and (min-width: 431px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
     .logo-container {
         display: flex;
         justify-content: flex-start;
@@ -615,10 +730,10 @@
         height: 72px !important;
     }
 
-    .social-icon{
+    .social-icon {
         display: block !important;
-        margin-top: 20px !important;
-        margin-left: 60px !important;
+        margin-top: 30px !important;
+        margin-left: 85px !important;
     }
 
     .icons{
@@ -628,27 +743,60 @@
 
     .quick-links-container {
         display: block;
-        margin-left: 20px !important;
+        margin-left: -140px !important;
         margin-top: -113px !important;
         margin-bottom: 8px !important;
     }
+
     .quick-links-title {
         margin-top: 19px;
         font-size: 23px;
         color: rgba(221, 161, 94, 1);
         font-family: 'Libre Baskerville', serif; 
-        margin-left:320px !important;
+        margin-left:402px !important;
     }
     
     .quick-links-lists {
         display: grid;
         justify-content: center;
-        font-size: 20px;
+        font-size: 15px;
         text-align: center;
         width: 100%;
-        gap: 20px;
+        gap: 10px;
         font-family: 'Libre Baskerville', serif; 
     
+    }
+
+    .hr-line {
+        width: 100% !important;
+        border-top: 7px solid #efe3e3 !important;
+    }
+
+    .contact-us {
+        margin-top: -217px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        padding-left: 180px !important;
+    }
+
+    .contact-us-icons-details {
+        display: flex !important;
+        gap: 9px !important;
+        margin-bottom: 24px !important;
+    }
+
+    .contact-us-span {
+        color: rgba(221, 161, 94, 1) !important;
+        font-size: 15px !important;
+        text-align: center !important;
+        margin-top: 15px !important;
+    }
+
+    .contact-us-icons{
+        object-fit: contain !important;
+        width: 34px !important;
+        margin-top: 10px !important;
     }
 
 }
@@ -663,6 +811,7 @@
         padding-top: 20px !important; 
     }
 
+    
     .logo-background {
         background-color: #29336A !important;
         width: 150px !important;
@@ -690,18 +839,74 @@
         height: 72px !important;
     }
 
-    .social-icon{
+    .social-icon {
         display: block !important;
-        margin-top: 20px !important;
-        margin-left: 40px !important;
+        margin-top: 30px !important;
+        margin-left: 85px !important;
     }
 
     .icons{
-        width: 50px !important;
-        height: 50px !important;
+        width: 50px;
+        height: 50px;
     }
 
+    .quick-links-container {
+        display: block;
+        margin-left: -140px !important;
+        margin-top: -113px !important;
+        margin-bottom: 8px !important;
+    }
+
+    .quick-links-title {
+        margin-top: 19px;
+        font-size: 30px;
+        color: rgba(221, 161, 94, 1);
+        font-family: 'Libre Baskerville', serif; 
+        margin-left: 515px !important;
+    }
     
+    .quick-links-lists {
+        display: grid;
+        justify-content: center;
+        font-size: 22px;
+        text-align: center;
+        width: 100%;
+        gap: 10px;
+        font-family: 'Libre Baskerville', serif; 
+    
+    }
+
+    .hr-line {
+        width: 100% !important;
+        border-top: 7px solid #efe3e3 !important;
+    }
+
+    .contact-us {
+        margin-top: -247px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        padding-left: 255px !important;
+    }
+
+    .contact-us-icons-details {
+        display: flex !important;
+        gap: 9px !important;
+        margin-bottom: 37px !important;
+    }
+
+    .contact-us-span {
+        color: rgba(221, 161, 94, 1) !important;
+        font-size: 22px !important;
+        text-align: center !important;
+        margin-top: 15px !important;
+    }
+
+    .contact-us-icons{
+        object-fit: contain !important;
+        width: 34px !important;
+        margin-top: 10px !important;
+    }
 }
 
 
@@ -711,14 +916,15 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        padding-left: 45px !important;
-        padding-top: 20px !important; 
+        padding-left: 90px !important;
+        padding-top: 20px !important;
     }
 
+    
     .logo-background {
         background-color: #29336A !important;
-        width: 150px !important;
-        height: 150px !important;
+        width: 211px !important;
+        height: 211px !important;
         border-radius: 50% !important;
         display: flex;
         justify-content: center;
@@ -731,27 +937,87 @@
         z-index: 1;
         background-color: #ffffff;
         border-radius: 50%;
-        width: 140px !important;
-        height: 140px !important;
+        width: 190px !important;
+        height: 190px !important;
     }
 
     .footer-logo-img {
-        margin-left: 14px !important;
-        margin-top: 30px !important;
-        width: 110px !important;
-        height: 72px !important;
+        margin-left: 16px !important;
+        margin-top: 37px !important;
+        width: 150px !important;
+        height: 100px !important;
     }
 
-    .social-icon{
+    .social-icon {
         display: block !important;
-        margin-top: 20px !important;
-        margin-left: 40px !important;
+        margin-top: 30px !important;
+        margin-left: 60px !important;
     }
 
-    .icons{
-        width: 50px !important;
-        height: 50px !important;
-    }  
+    .icons {
+        width: 150px !important;
+        height: 150px !important;
+        object-fit: contain !important;
+    }
+
+    .quick-links-container {
+        display: block;
+        margin-left: -177px !important;
+        margin-top: -265px !important;
+        margin-bottom: 8px !important;
+    }
+
+    .quick-links-title {
+        margin-top: -41px;
+        font-size: 45px;
+        color: rgba(221, 161, 94, 1);
+        font-family: 'Libre Baskerville', serif;
+        margin-left: 705px !important;
+    }
+    
+    .quick-links-lists {
+        display: grid;
+        justify-content: center;
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+        gap: 10px;
+        font-family: 'Libre Baskerville', serif;
+    
+    }
+
+    .hr-line {
+        width: 100% !important;
+        border-top: 7px solid #efe3e3 !important;
+    }
+
+    .contact-us {
+        margin-top: -284px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        padding-left: 378px !important;
+    }
+
+    .contact-us-icons-details {
+        display: flex !important;
+        gap: 9px !important;
+        margin-bottom: 58px !important;
+    }
+
+    .contact-us-span {
+        color: rgba(221, 161, 94, 1) !important;
+        font-size: 30px !important;
+        text-align: center !important;
+        margin-top: 15px !important;
+        line-height: 27px !important;
+    }
+
+    .contact-us-icons{
+        object-fit: contain !important;
+        width: 34px !important;
+        margin-top: 10px !important;
+    }
 }
 
 @media screen and (min-width: 1441px) and (max-width: 2560px) {

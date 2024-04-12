@@ -11,6 +11,7 @@ const Contacts = () => {
             <HeroSection
                 imageSrc={require('../assets/images/contact-banner.png')}
                 text="Contacts"
+                isStyled={true}
             />
             <ContactInfo />
             <DropUsALine />

@@ -2,8 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { Grid } from '@mui/material';
 import '../style/Infrastructure.css';
 
-const HeroSection = ({ imageSrc, text }) => {
+const HeroSection = ({ imageSrc, text, isStyled }) => {
     const [visited, setVisited] = useState(false);
+
+console.log("isStyled", isStyled);
 
     useEffect(() => {
         const isVisited = localStorage.getItem('visited');
@@ -19,7 +21,7 @@ const HeroSection = ({ imageSrc, text }) => {
             <Grid item xs={12} className={`infrastructure-grids ${visited ? 'visited' : ''}`}>
                 <div className="infrastructure-grid">
                     <div className="infrastructure-overlay">
-                        <div className="infrastructure-image">
+                        <div className={isStyled ? 'infrastructure-img' : 'infrastructure-img-styled'}>
                             <img
                                 src={imageSrc}
                                 alt={text}

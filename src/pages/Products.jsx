@@ -1,18 +1,18 @@
 import React from "react";
 
 import ProductsCards from "../components/ProductsCards";
-// import ImageCarousel from "../common/ImageCarousel";
 import ProductLineup from "../components/ProductLineup";
-
 import HeroSection from "../common/HeroSection";
 
 const Products = () => {
     return (
         <>
-            {/* <ImageCarousel /> */}
+
             <HeroSection
-                imageSrc={require('../assets/images/product-banner.jpg')}
+                imageSrc={require('../assets/images/product-banner.png')}
                 // text="Products"
+                isStyled={false}
+
             />
             <ProductLineup />
             <ProductsCards />

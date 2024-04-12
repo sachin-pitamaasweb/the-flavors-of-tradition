@@ -13,8 +13,10 @@ const Home = () => {
         <>
             <ImageCarousel />
             <Heritage />
-            <WhyChooseUs />
-            <Quality />
+            {/* <WhyChooseUs /> */}
+            <Quality
+             applyAnimation={true}
+            />
             <ExploreOur />
             <Testimonial /> 
            

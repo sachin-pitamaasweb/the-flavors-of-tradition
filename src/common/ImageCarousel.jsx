@@ -12,7 +12,7 @@ const ExampleCarouselImage = ({ src, alt }) => {
             className="d-block w-100"
             src={src}
             alt={alt}
-            style={{ objectFit: 'contain', height: "auto" }}
+            style={{ objectFit: 'contain', height: 'auto' }}
         />
     );
 };
@@ -48,9 +48,11 @@ const ImageCarousel = () => {
                     {carouselItemsforMobile.map((item, index) => (
                         <Carousel.Item key={index} interval={3000}>
                             <ExampleCarouselImage src={item.src} alt={item.alt} />
-                            <Carousel.Caption className='carousel-caption'>
-                                <img src={require('../assets/images/bg-text.png')} alt="bg-text" className='bg-text-image-for-mobile' /> 
-                            </Carousel.Caption>
+                            {index == 0 && (
+                                <Carousel.Caption className='carousel-caption'>
+                                    <img src={require('../assets/images/bg-text.png')} alt="bg-text" className='bg-text-image-for-mobile' />
+                                </Carousel.Caption>
+                            )}
                         </Carousel.Item>
                     ))}
                 </Carousel>
@@ -61,9 +63,11 @@ const ImageCarousel = () => {
                     {carouselItemsforDesktop.map((item, index) => (
                         <Carousel.Item key={index} interval={3000}>
                             <ExampleCarouselImage src={item.src} alt={item.alt} />
-                            <Carousel.Caption>
-                                <img src={require('../assets/images/bg-text.png')} alt="bg-text"  style={bgTextStyle} className='bg-text-image' /> 
-                            </Carousel.Caption>
+                            {index == 0 && (
+                                <Carousel.Caption>
+                                    <img src={require('../assets/images/bg-text.png')} alt="bg-text" style={bgTextStyle} className='bg-text-image' />
+                                </Carousel.Caption>
+                            )}
                         </Carousel.Item>
                     ))}
                 </Carousel>

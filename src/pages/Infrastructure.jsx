@@ -18,6 +18,7 @@ const Infrastructure = () => {
             <HeroSection 
              imageSrc={require('../assets/images/Infrastructure.png')}
              text="Infrastructure"
+             isStyled={true}
             />
             <InfrastructureText />
             <InfrastructureProcessImages />

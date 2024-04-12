@@ -1,6 +1,6 @@
 .quality{
   overflow: hidden;
-  margin-top: 100px;
+  margin-top: 19px;
 }
 
 .quality-h4{
@@ -19,24 +19,44 @@
   animation: rotate 5s linear infinite;
 }
 
+.quality-image-1{
+  width: 70% !important;
+  margin-left: 60px !important; 
+}
+
 
 @media screen and (max-width: 325px) {
 
   .quality{
     overflow: hidden;
-    margin-top: 50px;
+    margin-top: 0px !important;
+  }
+
+  .quality-image-text{
+    display: flex !important;
+    justify-content: space-around !important;
+    gap: 20px !important;
+    margin-top: 30px !important;
+    margin-bottom: 50px !important;
+    padding: 0px !important;
   }
   
 
   .quality-h4{
     font-family: 'Libre Baskerville', serif; 
-    font-size: 13px;
-    margin-left: 68px;
+    font-size: 13px !important;
+    margin-left: 37px !important;
 }
 
 .quality-image-container{
   margin-right: 53px;
 }
+
+.quality-image-1{
+  width: 70% !important;
+  margin-left: 39px !important; 
+}
+
 }
 
 @media screen and (min-width: 326px) and (max-width: 375px) {
@@ -63,16 +83,16 @@
 }
 }
 
-@media  screen and (min-width: 376px) and (max-width: 425px) {
+@media  screen and (min-width: 376px) and (max-width: 480px) {
   .quality{
     overflow: hidden;
-    margin-top: 50px;
+    margin-top: 0px !important;
   }
   
   .quality-h4{
     font-family: 'Libre Baskerville', serif; 
-    font-size: 13px;
-    margin-left: 68px;
+    font-size: 16px;
+    margin-left: 37px;
 }
 
 .quality-image-container{
@@ -84,12 +104,30 @@
   margin-left: 30px !important;
   animation: rotate 5s linear infinite !important;
 }
+
+.quality-image-1 {
+  width: 70% !important;
+  margin-left: 45px !important;
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+.quality-image-text{
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding: 0px;
+}
+
+}
+
+
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
   .quality{
     overflow: hidden;
-    margin-top: 50px;
+    margin-top: 60px !important;
   }
   
   .quality-h4{
@@ -104,20 +142,61 @@
 }
 
 .quality-image-container{
-  margin-right: 53px;
-}
-
-.quality{
-  overflow: hidden;
-  margin-top: 100px;
-  padding-left: 10px;
-  padding-right: 80px;
+  margin-right: 0px !important;
 }
 
 .quality-image {
   width: 90% !important;
   margin-left: 54px !important;
   animation: rotate 5s linear infinite !important;
+}
+
+.quality-image-text{
+  display: flex !important;
+  justify-content: space-around !important;
+  gap: 20px !important;
+  margin-top: 0px !important;
+  margin-bottom: 50px !important;
+  padding: 0px !important;
+}
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .quality {
+    overflow: hidden !important;
+    margin-top: 24px !important;
+}
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .quality {
+    overflow: hidden !important;
+    margin-top: 0px !important;
+}
+
+.quality-h4 {
+  text-align: center !important;
+  font-family: 'Libre Baskerville', serif !important;
+  margin-left: 60px !important;
+}
+}
+
+
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
+  .quality-h4 {
+    text-align: center !important;
+    font-family: 'Libre Baskerville', serif !important;
+    font-size: 50px !important;
+}
+  
+}
+
+@media screen and (min-width: 2561px) and (max-width: 3840px) {
+  .quality-h4 {
+    text-align: center !important;
+    font-family: 'Libre Baskerville', serif !important;
+    font-size: 90px !important;
 }
   
 }
