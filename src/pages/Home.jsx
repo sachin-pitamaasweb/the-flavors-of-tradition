@@ -13,7 +13,7 @@ const Home = () => {
         <>
             <ImageCarousel />
             <Heritage />
-            {/* <WhyChooseUs /> */}
+            <WhyChooseUs />
             <Quality
              applyAnimation={true}
             />

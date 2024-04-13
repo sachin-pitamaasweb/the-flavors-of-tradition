@@ -15,7 +15,7 @@
         text-align: center;
         top: -466px !important;
     }
-    
+
 }
 
 @media screen and (min-width: 326px) and (max-width: 375px) {
@@ -30,7 +30,7 @@
         text-align: center;
         top: -430px !important;
     }
-    
+
 }
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
@@ -45,7 +45,7 @@
         text-align: center;
         top: -430px !important;
     }
-    
+
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
@@ -60,5 +60,217 @@
         text-align: center;
         top: -358px !important;
     }
-    
+
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .carousel-caption {
+        position: none !important;
+        right: 0% !important;
+        bottom: 0px !important;
+        left: 0% !important;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: center;
+    }
+
+    .bg-text-image-web {
+        width: 28% !important;
+        margin-top: -410px !important;
+        margin-left: -710px !important;
+        animation: swing 2s infinite alternate !important;
+    }
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .carousel-caption {
+        position: none !important;
+        right: 0% !important;
+        bottom: 0px !important;
+        left: 0% !important;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: center;
+    }
+
+    .bg-text-image-web {
+        width: 28% !important;
+        margin-top: -500px !important;
+        margin-left: -854px !important;
+        animation: swing 2s infinite alternate !important;
+    }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1366px) {
+    .carousel-caption {
+        position: none !important;
+        right: 0% !important;
+        bottom: 0px !important;
+        left: 0% !important;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: center;
+    }
+
+    .bg-text-image-web {
+        width: 28% !important;
+        margin-top: -540px !important;
+        margin-left: -920px !important;
+        animation: swing 2s infinite alternate !important;
+    }
+}
+
+
+@media screen and (min-width: 1367px) and (max-width: 1440px) {
+    .carousel-caption {
+        position: none !important;
+        right: 0% !important;
+        bottom: 0px !important;
+        left: 0% !important;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: center;
+    }
+
+    .bg-text-image-web {
+        width: 28% !important;
+        margin-top: -562px !important;
+        margin-left: -980px !important;
+        animation: swing 2s infinite alternate !important;
+    }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+    .carousel-caption {
+        position: none !important;
+        right: 0% !important;
+        bottom: 0px !important;
+        left: 0% !important;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: center;
+    }
+
+    .bg-text-image-web {
+        width: 28% !important;
+        margin-top: -757px !important;
+        margin-left: -1285px !important;
+        animation: swing 2s infinite alternate !important;
+    }
+}
+
+
+@media screen and (min-width: 1921px) and (max-width: 2048px) {
+    .carousel-caption {
+        position: none !important;
+        right: 0% !important;
+        bottom: 0px !important;
+        left: 0% !important;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: center;
+    }
+
+    .bg-text-image-web {
+        width: 28% !important;
+        margin-top: -832px !important;
+        margin-left: -1390px !important;
+        animation: swing 2s infinite alternate !important;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 2049px) and (max-width: 2304px) {
+    .carousel-caption {
+        position: none !important;
+        right: 0% !important;
+        bottom: 0px !important;
+        left: 0% !important;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: center;
+    }
+
+    .bg-text-image-web {
+        width: 28% !important;
+        margin-top: -930px !important;
+        margin-left: -1560px !important;
+        animation: swing 2s infinite alternate !important;
+    }
+}
+
+@media screen and (min-width: 2305px) and (max-width: 2560px) {
+    .carousel-caption {
+        position: none !important;
+        right: 0% !important;
+        bottom: 0px !important;
+        left: 0% !important;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: center;
+    }
+
+    .bg-text-image-web {
+        width: 28% !important;
+        margin-top: -1032px !important;
+        margin-left: -1720px !important;
+        animation: swing 2s infinite alternate !important;
+    }
+}
+
+
+
+@media screen and (min-width: 2561px) and (max-width: 3200px) {
+    .carousel-caption {
+        position: none !important;
+        right: 0% !important;
+        bottom: 0px !important;
+        left: 0% !important;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: center;
+    }
+
+    .bg-text-image-web {
+        width: 28% !important;
+        margin-top: -1295px !important;
+        margin-left: -2163px !important;
+        animation: swing 2s infinite alternate !important;
+    }
+}
+
+
+
+@media screen and (min-width: 3201px) and (max-width: 5000px) {
+    .carousel-caption {
+        position: none !important;
+        right: 0% !important;
+        bottom: 0px !important;
+        left: 0% !important;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: center;
+    }
+
+    .bg-text-image-web {
+        width: 28% !important;
+        margin-top: -1582px !important;
+        margin-left: -2595px !important;
+        animation: swing 2s infinite alternate !important;
+    }
 }

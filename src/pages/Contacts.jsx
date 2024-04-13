@@ -10,7 +10,7 @@ const Contacts = () => {
         <>
             <HeroSection
                 imageSrc={require('../assets/images/contact-banner.png')}
-                text="Contacts"
+                text="Contact Us"
                 isStyled={true}
             />
             <ContactInfo />

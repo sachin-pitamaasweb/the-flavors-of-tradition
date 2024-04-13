@@ -5,7 +5,7 @@ header {
     letter-spacing: 10% !important;
     text-align: left !important;
     padding: 10px 0 !important;
-    height: 51px !important;
+    height: 51px;
 }
 
 .container {
@@ -149,5 +149,27 @@ nav ul li a {
     header{
         height: 51px !important;
         font-size: 20px !important;
+    }
+}
+
+@media screen  and(min-width: 1280px)  and (max-width: 1366px) {   
+    
+}
+
+
+@media screen  and(min-width: 1367px)  and (max-width: 1440px) {   
+    
+}
+
+
+@media screen  and(min-width: 1441px)  and (max-width: 1920px) {   
+    header {
+        background-color: #29336A !important;
+        color: #DDA15E !important;
+        font-size: 24px;
+        letter-spacing: 0% !important;
+        text-align: left !important;
+        padding: 10px 0 !important;
+        height: 75px !important;
     }
 }

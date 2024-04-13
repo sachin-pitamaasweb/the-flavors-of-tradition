@@ -1,10 +1,11 @@
 
 import React from "react";
-import { Link } from 'react-router-dom';
 import { Grid } from '@mui/material';
 
 import '../style/Footer.css';
-
+import QuickLinks from "./QuickLinks";
+import SocialIcons from "../common/SocialIcons";
+import FooterContact from "./FooterContact";
 
 const Footer = () => {
 
@@ -19,52 +20,58 @@ const Footer = () => {
                     </div>
                 </div>
                 <Grid container spacing={2} className="footer-container">
-                    <Grid items xs={12}>
-
+                    {/* <Grid item xs={12}>
                         <div className="social-icon">
-                            <img src={require('../assets/images/Instagram.png')} alt="instagram" className='icons' style={{ objectFit: 'contain' }} />
-                            {/* <img src={require('../assets/images/TwitterX.png')} alt="twitter" className='icons' /> */}
-                            <img src={require('../assets/images/Facebook.png')} alt="facebook" className='icons' style={{ objectFit: 'contain' }} />
+                            <img src={require('../assets/images/Instagram.png')} alt="Instagram" className="icon"
+                                onClick={() => window.open("https://www.instagram.com/mrmc_foods/", "_blank", "noopener,noreferrer")}
+                                style={{ cursor: 'pointer' }} />
+                            <img src={require('../assets/images/Facebook.png')} alt="Facebook" className="icon"
+                                onClick={() => window.open("https://www.facebook.com/mrmcfoods", "_blank", "noopener,noreferrer")}
+                                style={{ cursor: 'pointer' }} />
                         </div>
-                    </Grid>
-                    <Grid items xs={12}>
+                    </Grid> */}
+                    <SocialIcons />
+                    {/* <Grid items xs={12}>
                         <div className='quick-links-container'>
                             <div className='quick-links'>
                                 <div className='quick-links-title'>Quick-Links</div>
                                 <div className='quick-links-lists'>
-                                    <Link to='/' style={{ textDecoration: 'none' }}><span className='quick-links-span'>Home</span></Link>
-                                    <Link to='/about' style={{ textDecoration: 'none' }}><span className='quick-links-span'>About Us</span></Link>
-                                    <Link to='/products' style={{ textDecoration: 'none' }}><span className='quick-links-span'>Products</span></Link>
-                                    <Link to='/events' style={{ textDecoration: 'none' }}><span className='quick-links-span'>Events</span></Link>
-                                    <Link to='/infrastructure' style={{ textDecoration: 'none' }}><span className='quick-links-span'>Infrastructure</span></Link>
-                                    <Link to='/contacts' style={{ textDecoration: 'none' }}><span className='quick-links-span'>Contacts Us</span></Link>
+                                    <span className='quick-links-span' >Home</span>
+                                    <span className='quick-links-span'>About Us</span>
+                                    <span className='quick-links-span'>Products</span>
+                                    <span className='quick-links-span'>Events</span>
+                                    <span className='quick-links-span'>Infrastructure</span>
+                                    <span className='quick-links-span'>Contacts Us</span>
                                 </div>
                             </div>
                         </div>
-                    </Grid>
+                    </Grid> */}
+                    <QuickLinks />
                     <Grid items xs={12} className="contact-us">
                         <div className='contact-us'>
                             <div className='contact-us-container'>
                                 <div className='contact-us-icons-details'>
                                     <img src={require('../assets/images/Phone.png')} alt="phone" className='contact-us-icons' style={{ objectFit: 'contain' }} />
-                                    <h3 className='contact-us-span'>+91 1234567890</h3>
+                                    <a style={{ textDecoration: 'none' }} href="tel:+91 9876543210"><h3 className='contact-us-span'>+91 9876543210</h3></a>
                                 </div>
                                 <hr className='hr-line' />
                                 <div className='contact-us-icons-details'>
                                     <img src={require('../assets/images/location.png')} alt="location" className='contact-us-icons' style={{ objectFit: 'contain' }} />
-                                    <h3 className='contact-us-span'>Punjab-India</h3>
+                                    <a style={{ textDecoration: 'none' }} href="https://www.google.com/maps/place/Feroz+Punjab/@30.8307583,74.0780589,17z/data=!3m1!4b1!4m5!3m4!1s0x3918f5d8b9b0b8b1:0x5c7d6e2e6a5e2b8d!8m2!3d30.8307577!4d74.0802476"><h3 className='contact-us-span'>Punjab-India</h3></a>
                                 </div>
                                 <hr className='hr-line' />
                                 <div className='contact-us-icons-details'>
                                     <img src={require('../assets/images/Email.png')} alt="Email" className='contact-us-icons' style={{ objectFit: 'contain' }} />
-                                    <h3 className='contact-us-span'>xyz@gmail.coms</h3>
+                                    <a style={{ textDecoration: 'none' }} href="mailto:rajiv@mrmc.in"><h3 className='contact-us-span'>xyz@gmail.coms</h3></a>
                                 </div>
                             </div>
                         </div>
                     </Grid>
+                    {/* <FooterContact /> */}
                 </Grid>
             </footer>
         </>
     )
 }
 export default Footer;
+

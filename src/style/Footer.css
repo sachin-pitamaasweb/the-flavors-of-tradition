@@ -50,7 +50,6 @@
 
 .social-icon{
     display: block;
-    /* justify-content: center; */
     margin-top: 40px;
     margin-left: 63px !important;
 }
@@ -87,7 +86,8 @@
 .quick-links-span {
     color: white;
     text-align: center;
-    font-family: 'Libre Baskerville', serif;    
+    font-family: 'Libre Baskerville', serif;  
+    cursor: pointer;  
 } 
 
 .contact-us{
@@ -196,9 +196,6 @@
     }
     .contact-us{
         margin-top: -90px !important;
-        /* display: block !important; */
-        /* justify-content: center !important; */
-        /* align-items: center !important; */
         padding-left: 0px !important;
     }
 
@@ -424,9 +421,6 @@
     
     .contact-us{
         margin-top: -90px !important;
-        /* display: block !important; */
-        /* justify-content: center !important; */
-        /* align-items: center !important; */
         padding-left: 0px !important;
     }
 
@@ -538,9 +532,6 @@
     
     .contact-us{
         margin-top: -90px !important;
-        /* display: block !important; */
-        /* justify-content: center !important; */
-        /* align-items: center !important; */
         padding-left: 0px !important;
     }
 
@@ -654,9 +645,6 @@
     
     .contact-us{
         margin-top: -90px !important;
-        /* display: block !important; */
-        /* justify-content: center !important; */
-        /* align-items: center !important; */
         padding-left: 0px !important;
     }
 
@@ -773,22 +761,27 @@
     }
 
     .contact-us {
-        margin-top: -217px !important;
+        margin-top: -254px !important;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
-        padding-left: 180px !important;
+        padding-left: 229px !important;
+    }
+
+    .contact-us-container {
+        margin-top: 83px !important;
     }
 
     .contact-us-icons-details {
         display: flex !important;
         gap: 9px !important;
-        margin-bottom: 24px !important;
+        margin-bottom: 59px !important;
+        margin-top: 34px;
     }
 
     .contact-us-span {
         color: rgba(221, 161, 94, 1) !important;
-        font-size: 15px !important;
+        font-size: 30px !important;
         text-align: center !important;
         margin-top: 15px !important;
     }
@@ -876,6 +869,10 @@
     
     }
 
+    .contact-us-container {
+        margin-top: 49px !important;
+    }
+
     .hr-line {
         width: 100% !important;
         border-top: 7px solid #efe3e3 !important;
@@ -892,12 +889,13 @@
     .contact-us-icons-details {
         display: flex !important;
         gap: 9px !important;
-        margin-bottom: 37px !important;
+        margin-bottom: 48px !important;
+        margin-top: 48px !important;
     }
 
     .contact-us-span {
         color: rgba(221, 161, 94, 1) !important;
-        font-size: 22px !important;
+        font-size: 30px !important;
         text-align: center !important;
         margin-top: 15px !important;
     }
@@ -910,8 +908,76 @@
 }
 
 
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .contact-us {
+        margin-top: -284px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        padding-left: 300px !important;
+    }
+    .contact-us-container {
+        margin-top: 75px !important;
+    }
 
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .contact-us-icons-details {
+        display: flex !important;
+        gap: 9px !important;
+        margin-top: 26px !important;
+        margin-bottom: 30px !important;
+    }
+
+    .contact-us-icons {
+        object-fit: contain !important;
+        width: 50px !important;
+        margin-top: 40px !important;
+    }
+
+    .contact-us-icons-details {
+        display: flex !important;
+        gap: 9px !important;
+        margin-top: 26px !important;
+        margin-bottom: 65px !important;
+    }
+}
+
+@media screen and ( min-width: 1281px) and (max-width: 1366px) {
+    .contact-us {
+        margin-top: -284px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        padding-left: 378px !important;
+    }
+
+    .contact-us-container {
+        margin-top: 56px !important;
+    }
+
+    .contact-us-icons-details {
+        display: flex !important;
+        gap: 9px !important;
+        margin-bottom: 58px !important;
+        margin-top: 60px !important;
+    }
+
+    .contact-us-icons {
+        object-fit: contain !important;
+        width: 50px !important;
+        margin-top: 10px !important;
+    }
+
+    .contact-us-span {
+        color: rgba(221, 161, 94, 1) !important;
+        font-size: 43px !important;
+        text-align: center !important;
+        margin-top: 15px !important;
+        line-height: 27px !important;
+    }
+    
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1440px) {
     .logo-container {
         display: flex;
         justify-content: flex-start;
@@ -999,15 +1065,20 @@
         padding-left: 378px !important;
     }
 
+    .contact-us-container {
+        margin-top: 88px !important;
+    }
+
     .contact-us-icons-details {
         display: flex !important;
         gap: 9px !important;
         margin-bottom: 58px !important;
+        margin-top: 30px !important;
     }
 
     .contact-us-span {
         color: rgba(221, 161, 94, 1) !important;
-        font-size: 30px !important;
+        font-size: 40px !important;
         text-align: center !important;
         margin-top: 15px !important;
         line-height: 27px !important;
@@ -1015,7 +1086,7 @@
 
     .contact-us-icons{
         object-fit: contain !important;
-        width: 34px !important;
+        width: 50px !important;
         margin-top: 10px !important;
     }
 }
@@ -1065,6 +1136,37 @@
     .icons{
         width: 100px !important;
         height: 100px !important;
+    }
+
+    .contact-us {
+        margin-top: -345px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        padding-left: 521px !important;
+    }
+
+    .contact-us-span {
+        color: rgba(221, 161, 94, 1) !important;
+        font-size: 58px !important; 
+        text-align: center !important;
+        margin-top: 40px !important;
+    }
+
+    .contact-us-icons{
+        object-fit: contain !important;
+        width: 90px !important;
+        margin-top: 10px !important;
+    }
+
+    .contact-us-icons-details {
+        display: flex !important;
+        gap: 225px !important;
+        margin-top: 69px !important;
+        margin-bottom: 61px !important;
+    }
+    .contact-us-container {
+        margin-top: -12px !important;
     }
 }
 
@@ -1116,3 +1218,4 @@
     }
     
 }
+
